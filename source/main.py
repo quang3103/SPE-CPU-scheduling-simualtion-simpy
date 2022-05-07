@@ -99,12 +99,13 @@ class CpuScheduling:
     def handle_arrival_job(self, job):
         if job.priority == 0:
             # print("{}: Receive 1 job with priority 0".format(self.env.now))
-            '''this is comment'''
+            '''put this job to RR queue'''
             write_to_file(log_file, self.env.now, "RR queue", "Process {} burst time {} to RR queue".format(job.id, job.burst_time))
             self.RR_queue.append(job)
             write_queue_to_file(queue_file, self.env.now, "RR queue", self.RR_queue)
         elif job.priority == 1:
             # print("{}: Receive 1 job with priority 1".format(self.env.now))
+            '''put this job to FCFS queue'''
             write_to_file(log_file, self.env.now, "FCFS queue", "Process {} burst time {} to FCFS queue".format(job.id, job.burst_time))
             self.FCFS_queue.append(job)
             write_queue_to_file(queue_file, self.env.now, "FCFS queue", self.FCFS_queue)
@@ -114,53 +115,75 @@ class CpuScheduling:
 
     def schedule(self):
         while True:
+            '''check if there are any processes are waiting to be executed'''
             if (len(self.RR_queue) != 0) or (len(self.FCFS_queue) != 0):
+
+                '''Execute all processes in RR queue'''
                 while len(self.RR_queue) != 0:
                     write_queue_to_file(queue_file, self.env.now, "RR queue", self.RR_queue)
+                    '''Get the process of out the queue'''
                     my_job = self.RR_queue.pop(0)
 
+                    '''Calculate statistics of the process'''
                     if my_job.response_time == -1:
                         my_job.response_time = self.env.now - my_job.arrival_time
                     my_job.waiting_time += (self.env.now - my_job.last_time_in_CPU)
 
+                    '''calculate duration for this process in RR algorithm'''
                     duration = min(self.quantum_time, my_job.burst_time)
                     yield self.env.process(self.CPU.serve(duration, my_job))
                     my_job.burst_time -= duration
 
+                    '''Check if the process finishes or not'''
                     if my_job.burst_time > 0:
                         my_job.priority += 1
                         self.FCFS_queue.append(my_job)
                         write_to_file(log_file, self.env.now, "FCFS queue", "Process {} burst time {} to FCFS queue".format(my_job.id, my_job.burst_time))
                         write_queue_to_file(queue_file, self.env.now, "FCFS queue", self.FCFS_queue)
                     else:
+                        '''Yes, this process finish. We calculate some other statistics'''
                         my_job.turn_around_time = self.env.now - my_job.arrival_time
                         assert my_job.turn_around_time == my_job.saved_burst_time + my_job.waiting_time
                         write_statistic_to_file(stat_file, my_job)
 
+                ''' Execuet all process in FCFS queue'''
                 while len(self.FCFS_queue) != 0:
                     write_queue_to_file(queue_file, self.env.now, "FCFS queue", self.FCFS_queue)
+                    '''Get the process of out the queue'''
                     my_job = self.FCFS_queue.pop(0)
 
+                    '''Calculate some statistics of the process'''
                     if my_job.response_time == -1:
                         my_job.response_time = self.env.now - my_job.arrival_time
                     my_job.waiting_time += (self.env.now - my_job.last_time_in_CPU)
 
+                    '''In process with lower priority could be preempted by higher priority process'''
                     t1 = self.env.now
                     serve_proc = self.env.process(self.CPU.serve(my_job.burst_time, my_job))
+
+                    '''wait for the process to finish or there is interrupt because
+                       there is higher priority process comes'''
                     results = yield serve_proc | self.CPU.job_arrival_interrupt
+
+                    '''Check if our process completely finishes or be interrupted by higher priority process'''
                     if serve_proc not in results:
-                        serve_proc.interrupt("High process come!")
+                        serve_proc.interrupt("Higher priority process comes!")
                         interval = self.env.now - t1
                         my_job.burst_time -= interval
+
+                        '''put the interrupted process back into FCFS queue and break'''
                         self.FCFS_queue.append(my_job)
                         write_to_file(log_file, self.env.now, "FCFS queue", "Process {} burst time {} to FCFS queue".format(my_job.id, my_job.burst_time))
                         write_queue_to_file(queue_file, self.env.now, "FCFS queue", self.FCFS_queue)
                         break
-                    else:  # there is no process with higher priority comes and the process finish
+                    else:
+                        '''there is no process with higher priority comes and the process completely finish.
+                            We calculate some statistics for this process'''
                         my_job.turn_around_time = self.env.now - my_job.arrival_time
                         assert my_job.turn_around_time == my_job.saved_burst_time + my_job.waiting_time
                         write_statistic_to_file(stat_file, my_job)
             else:
+                '''No process wait, therefore the CPU will go to IDLE state'''
                 yield self.env.process(self.CPU.idle())
 
 
