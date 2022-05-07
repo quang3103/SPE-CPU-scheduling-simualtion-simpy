@@ -1,1 +1,1 @@
-This is code in Jupyter Notebook
+Project modified for Jupyter Notebook demonstration. :))
