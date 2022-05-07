@@ -1,0 +1,29 @@
+0:         CPU:                 CPU is IDLE
+10:        RR queue:            Process 0 is put into RR queue
+10:        CPU:                 CPU is given to process 0
+20:        RR queue:            Process 1 is put into RR queue
+20:        CPU:                 CPU is given to process 1
+30:        RR queue:            Process 2 is put into RR queue
+30:        CPU:                 CPU is given to process 2
+40:        RR queue:            Process 3 is put into RR queue
+40:        CPU:                 CPU is given to process 3
+50:        RR queue:            Process 4 is put into RR queue
+50:        CPU:                 CPU is given to process 4
+60:        RR queue:            Process 5 is put into RR queue
+60:        CPU:                 CPU is given to process 5
+70:        RR queue:            Process 6 is put into RR queue
+70:        CPU:                 CPU is given to process 6
+80:        RR queue:            Process 7 is put into RR queue
+80:        CPU:                 CPU is given to process 7
+90:        RR queue:            Process 8 is put into RR queue
+90:        CPU:                 CPU is given to process 8
+100:       RR queue:            Process 9 is put into RR queue
+100:       CPU:                 CPU is given to process 9
+110:       RR queue:            Process 10 is put into RR queue
+110:       CPU:                 CPU is given to process 10
+120:       RR queue:            Process 11 is put into RR queue
+120:       CPU:                 CPU is given to process 11
+130:       RR queue:            Process 12 is put into RR queue
+130:       CPU:                 CPU is given to process 12
+140:       RR queue:            Process 13 is put into RR queue
+140:       CPU:                 CPU is given to process 13
