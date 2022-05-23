@@ -1,374 +1,349 @@
-10:        FCFS queue: 0 
-10:        FCFS queue: 0 
-31:        FCFS queue: 1 
-31:        FCFS queue: 1 
-40:        FCFS queue: 2 
-40:        FCFS queue: 2 
-41:        FCFS queue: 3 
-41:        RR queue: 4 
-41:        FCFS queue: 3 2 
-41:        RR queue: 4 
-42.5:      FCFS queue: 3 2 
-49.5:      FCFS queue: 2 
-60:        FCFS queue: 5 
-60:        FCFS queue: 5 
-72:        FCFS queue: 6 
-72:        FCFS queue: 6 
-84:        FCFS queue: 7 
-84:        RR queue: 8 
-84:        RR queue: 8 
-91:        FCFS queue: 7 9 
-92:        FCFS queue: 7 9 10 
-92.5:      FCFS queue: 7 9 10 
-93.5:      FCFS queue: 9 10 
-102.5:     FCFS queue: 10 
-105:       FCFS queue: 11 
-105:       RR queue: 12 
-105:       FCFS queue: 11 10 
-105:       RR queue: 12 
-105.5:     FCFS queue: 11 10 
-107.5:     FCFS queue: 10 
-145:       FCFS queue: 13 
-145:       FCFS queue: 13 
-148:       FCFS queue: 14 
-148:       FCFS queue: 14 13 
-148:       FCFS queue: 14 13 
-154:       FCFS queue: 13 
-177:       FCFS queue: 15 
-177:       RR queue: 16 
-177:       RR queue: 16 
-184:       FCFS queue: 15 17 
-185:       FCFS queue: 15 17 18 
-187:       FCFS queue: 15 17 18 16 
-187:       FCFS queue: 15 17 18 16 
-188:       FCFS queue: 17 18 16 
-192:       FCFS queue: 18 16 
-193:       FCFS queue: 16 19 
-193:       RR queue: 20 
-193:       FCFS queue: 16 19 21 
-193:       FCFS queue: 16 19 21 18 
-193:       RR queue: 20 
-196.5:     FCFS queue: 16 19 21 18 
-198.0:     FCFS queue: 19 21 18 
-199:       FCFS queue: 21 18 22 
-199:       FCFS queue: 21 18 22 19 
-199:       FCFS queue: 21 18 22 19 
-210:       FCFS queue: 18 22 19 
-213:       FCFS queue: 22 19 
-217:       FCFS queue: 19 
+12:        FCFS queue: 0 
+12:        FCFS queue: 0 
+51:        FCFS queue: 1 
+51:        FCFS queue: 1 
+82:        FCFS queue: 2 
+82:        FCFS queue: 2 
+86:        FCFS queue: 3 
+86:        RR queue: 4 
+86:        RR queue: 4 
+87:        FCFS queue: 3 5 
+92:        FCFS queue: 3 5 6 
+92:        FCFS queue: 3 5 6 7 
+94.5:      FCFS queue: 3 5 6 7 
+97.5:      FCFS queue: 5 6 7 
+98.5:      FCFS queue: 6 7 
+100.5:     FCFS queue: 7 
+107:       FCFS queue: 8 
+107:       RR queue: 9 
+107:       FCFS queue: 8 7 
+107:       RR queue: 9 
+107.5:     FCFS queue: 8 7 
+118:       FCFS queue: 7 10 
+118:       FCFS queue: 7 10 8 
+118:       FCFS queue: 7 10 8 
+119:       FCFS queue: 10 8 11 
+119:       FCFS queue: 10 8 11 7 
+119:       FCFS queue: 10 8 11 7 
+121:       FCFS queue: 8 11 7 
+121.5:     FCFS queue: 11 7 
+122:       FCFS queue: 7 12 
+122:       FCFS queue: 7 12 11 
+122:       FCFS queue: 7 12 11 
+123.5:     FCFS queue: 12 11 
+125.5:     FCFS queue: 11 
+126:       FCFS queue: 13 
+126:       RR queue: 14 
+126:       FCFS queue: 13 11 
+126:       RR queue: 14 
+135.5:     FCFS queue: 13 11 
+136.5:     FCFS queue: 11 
+153:       FCFS queue: 15 
+153:       FCFS queue: 15 
+158:       FCFS queue: 16 
+158:       FCFS queue: 16 
+167:       FCFS queue: 17 
+167:       RR queue: 18 
+167:       RR queue: 18 
+175.5:     FCFS queue: 17 
+188:       FCFS queue: 19 
+188:       FCFS queue: 19 
+194:       FCFS queue: 20 
+194:       FCFS queue: 20 
+196:       FCFS queue: 21 
+196:       RR queue: 22 
+196:       FCFS queue: 21 
+200:       RR queue: 22 
 218:       FCFS queue: 23 
-218:       FCFS queue: 23 19 
-218:       FCFS queue: 23 19 
-221:       FCFS queue: 19 24 
-221:       RR queue: 25 
-221:       FCFS queue: 19 24 23 
-221:       RR queue: 25 
-223.5:     FCFS queue: 19 24 23 
-227:       FCFS queue: 24 23 26 
-227:       FCFS queue: 24 23 26 27 
-227:       FCFS queue: 24 23 26 27 19 
-227:       FCFS queue: 24 23 26 27 19 
-236:       FCFS queue: 23 26 27 19 28 
-236:       RR queue: 29 
-236:       FCFS queue: 23 26 27 19 28 
-237:       FCFS queue: 26 27 19 28 30 
-237:       FCFS queue: 26 27 19 28 30 
-238:       FCFS queue: 27 19 28 30 31 
-238:       FCFS queue: 27 19 28 30 31 26 
-238:       RR queue: 29 
-247:       FCFS queue: 27 19 28 30 31 26 32 
-248:       FCFS queue: 27 19 28 30 31 26 32 29 
-248:       FCFS queue: 27 19 28 30 31 26 32 29 
-252:       FCFS queue: 19 28 30 31 26 32 29 33 
-252:       RR queue: 34 
-252:       FCFS queue: 19 28 30 31 26 32 29 33 27 
-252:       RR queue: 34 
-262:       FCFS queue: 19 28 30 31 26 32 29 33 27 34 
-262:       FCFS queue: 19 28 30 31 26 32 29 33 27 34 
-262.5:     FCFS queue: 28 30 31 26 32 29 33 27 34 
-265:       FCFS queue: 30 31 26 32 29 33 27 34 35 
-265:       FCFS queue: 30 31 26 32 29 33 27 34 35 28 
-265:       FCFS queue: 30 31 26 32 29 33 27 34 35 28 
-268:       FCFS queue: 31 26 32 29 33 27 34 35 28 36 
-268:       FCFS queue: 31 26 32 29 33 27 34 35 28 36 30 
-268:       FCFS queue: 31 26 32 29 33 27 34 35 28 36 30 
-269:       FCFS queue: 26 32 29 33 27 34 35 28 36 30 
-271:       FCFS queue: 32 29 33 27 34 35 28 36 30 37 
-271:       FCFS queue: 32 29 33 27 34 35 28 36 30 37 26 
-271:       FCFS queue: 32 29 33 27 34 35 28 36 30 37 26 
-273:       FCFS queue: 29 33 27 34 35 28 36 30 37 26 
-273.5:     FCFS queue: 33 27 34 35 28 36 30 37 26 
-274:       FCFS queue: 27 34 35 28 36 30 37 26 38 
-274:       RR queue: 39 
-274:       FCFS queue: 27 34 35 28 36 30 37 26 38 33 
-274:       RR queue: 39 
-276.5:     FCFS queue: 27 34 35 28 36 30 37 26 38 33 
-281.5:     FCFS queue: 34 35 28 36 30 37 26 38 33 
-282:       FCFS queue: 35 28 36 30 37 26 38 33 40 
-282:       FCFS queue: 35 28 36 30 37 26 38 33 40 34 
-282:       FCFS queue: 35 28 36 30 37 26 38 33 40 34 
-286:       FCFS queue: 28 36 30 37 26 38 33 40 34 
-288:       FCFS queue: 36 30 37 26 38 33 40 34 41 
-288:       FCFS queue: 36 30 37 26 38 33 40 34 41 28 
-288:       FCFS queue: 36 30 37 26 38 33 40 34 41 28 
-300:       FCFS queue: 30 37 26 38 33 40 34 41 28 
-307:       FCFS queue: 37 26 38 33 40 34 41 28 42 
-307:       RR queue: 43 
-307:       FCFS queue: 37 26 38 33 40 34 41 28 42 30 
-307:       RR queue: 43 
-308:       FCFS queue: 37 26 38 33 40 34 41 28 42 30 44 
-310:       FCFS queue: 37 26 38 33 40 34 41 28 42 30 44 45 
-314.5:     FCFS queue: 37 26 38 33 40 34 41 28 42 30 44 45 
-318.5:     FCFS queue: 26 38 33 40 34 41 28 42 30 44 45 
-331.5:     FCFS queue: 38 33 40 34 41 28 42 30 44 45 
-332:       FCFS queue: 33 40 34 41 28 42 30 44 45 46 
-332:       RR queue: 47 
-332:       FCFS queue: 33 40 34 41 28 42 30 44 45 46 38 
-332:       RR queue: 47 
-334.5:     FCFS queue: 33 40 34 41 28 42 30 44 45 46 38 
-335:       FCFS queue: 40 34 41 28 42 30 44 45 46 38 48 
-335:       FCFS queue: 40 34 41 28 42 30 44 45 46 38 48 
-341:       FCFS queue: 34 41 28 42 30 44 45 46 38 48 
-344.0:     FCFS queue: 41 28 42 30 44 45 46 38 48 
-348.0:     FCFS queue: 28 42 30 44 45 46 38 48 
-356.5:     FCFS queue: 42 30 44 45 46 38 48 
-358.5:     FCFS queue: 30 44 45 46 38 48 
-368:       FCFS queue: 44 45 46 38 48 49 
-368:       FCFS queue: 44 45 46 38 48 49 30 
-368:       FCFS queue: 44 45 46 38 48 49 30 
-373:       FCFS queue: 45 46 38 48 49 30 50 
-373:       FCFS queue: 45 46 38 48 49 30 50 44 
-373:       FCFS queue: 45 46 38 48 49 30 50 44 
-380:       FCFS queue: 46 38 48 49 30 50 44 
-382:       FCFS queue: 38 48 49 30 50 44 
-387.5:     FCFS queue: 48 49 30 50 44 
-390.5:     FCFS queue: 49 30 50 44 
-398:       FCFS queue: 30 50 44 51 
-398:       RR queue: 52 
-398:       FCFS queue: 30 50 44 51 49 
-398:       RR queue: 52 
-399:       FCFS queue: 30 50 44 51 49 53 
-399:       FCFS queue: 30 50 44 51 49 53 54 
-399:       FCFS queue: 30 50 44 51 49 53 54 55 
-399:       RR queue: 56 
-402:       FCFS queue: 30 50 44 51 49 53 54 55 57 
-402:       FCFS queue: 30 50 44 51 49 53 54 55 57 58 
-406.5:     RR queue: 56 
-408.0:     FCFS queue: 30 50 44 51 49 53 54 55 57 58 
-416.5:     FCFS queue: 50 44 51 49 53 54 55 57 58 
-420.5:     FCFS queue: 44 51 49 53 54 55 57 58 
-423.5:     FCFS queue: 51 49 53 54 55 57 58 
-427.5:     FCFS queue: 49 53 54 55 57 58 
-428.0:     FCFS queue: 53 54 55 57 58 
-432.0:     FCFS queue: 54 55 57 58 
-434.0:     FCFS queue: 55 57 58 
-436.0:     FCFS queue: 57 58 
-440:       FCFS queue: 58 59 
-440:       RR queue: 60 
-440:       FCFS queue: 58 59 57 
-440:       RR queue: 60 
-446:       FCFS queue: 58 59 57 61 
-447.5:     FCFS queue: 58 59 57 61 
-448:       FCFS queue: 59 57 61 62 
-448:       FCFS queue: 59 57 61 62 58 
-448:       FCFS queue: 59 57 61 62 58 
-449:       FCFS queue: 57 61 62 58 63 
-449:       RR queue: 64 
-449:       FCFS queue: 57 61 62 58 63 59 
-449:       RR queue: 64 
-459:       FCFS queue: 57 61 62 58 63 59 64 
-459:       FCFS queue: 57 61 62 58 63 59 64 
-466.0:     FCFS queue: 61 62 58 63 59 64 
-473:       FCFS queue: 62 58 63 59 64 65 
-473:       FCFS queue: 62 58 63 59 64 65 61 
-473:       FCFS queue: 62 58 63 59 64 65 61 
-488:       FCFS queue: 58 63 59 64 65 61 
-489.5:     FCFS queue: 63 59 64 65 61 
-490:       FCFS queue: 59 64 65 61 66 
-490:       FCFS queue: 59 64 65 61 66 63 
-490:       FCFS queue: 59 64 65 61 66 63 
-494:       FCFS queue: 64 65 61 66 63 67 
-494:       RR queue: 68 
-494:       FCFS queue: 64 65 61 66 63 67 59 
-494:       RR queue: 68 
-494.5:     FCFS queue: 64 65 61 66 63 67 59 
-495.0:     FCFS queue: 65 61 66 63 67 59 
-498.0:     FCFS queue: 61 66 63 67 59 
-499.0:     FCFS queue: 66 63 67 59 
-501.0:     FCFS queue: 63 67 59 
-502.5:     FCFS queue: 67 59 
-506.5:     FCFS queue: 59 
-510:       FCFS queue: 69 
-510:       FCFS queue: 69 59 
-510:       FCFS queue: 69 59 
-517:       FCFS queue: 59 
-519:       FCFS queue: 70 
-519:       FCFS queue: 70 59 
-519:       FCFS queue: 70 59 
-522:       FCFS queue: 59 71 
-522:       RR queue: 72 
-522:       FCFS queue: 59 71 70 
-522:       RR queue: 72 
-522.5:     FCFS queue: 59 71 70 
-523:       FCFS queue: 71 70 73 
-523:       FCFS queue: 71 70 73 59 
-523:       FCFS queue: 71 70 73 59 
-526:       FCFS queue: 70 73 59 
-527:       FCFS queue: 73 59 74 
-527:       FCFS queue: 73 59 74 70 
-527:       FCFS queue: 73 59 74 70 
-538:       FCFS queue: 59 74 70 
-539.0:     FCFS queue: 74 70 
-545.0:     FCFS queue: 70 
-550:       FCFS queue: 75 
-550:       RR queue: 76 
-550:       RR queue: 76 
-550.5:     FCFS queue: 75 
-552:       FCFS queue: 77 
-552:       FCFS queue: 77 75 
-552:       FCFS queue: 77 75 
-553:       FCFS queue: 75 
-555:       FCFS queue: 78 
-555:       FCFS queue: 78 
-558:       FCFS queue: 79 
-558:       RR queue: 80 
-558:       FCFS queue: 79 78 
-558:       RR queue: 80 
-559.5:     FCFS queue: 79 78 
-561.5:     FCFS queue: 78 
-573:       FCFS queue: 81 
-573:       FCFS queue: 81 
-574:       FCFS queue: 82 
-574:       FCFS queue: 82 81 
-574:       FCFS queue: 82 81 
-575:       FCFS queue: 81 
-584:       FCFS queue: 83 
-584:       RR queue: 84 
-584:       RR queue: 84 
-589:       FCFS queue: 83 85 
-594:       FCFS queue: 83 85 84 
-594:       FCFS queue: 83 85 84 
-595:       FCFS queue: 85 84 
-600:       FCFS queue: 84 
-609:       FCFS queue: 86 
-609:       FCFS queue: 86 
-627:       FCFS queue: 87 
-627:       RR queue: 88 
-627:       RR queue: 88 
-627.5:     FCFS queue: 87 
-637:       FCFS queue: 89 
-637:       FCFS queue: 89 
-639:       FCFS queue: 90 
-639:       FCFS queue: 90 89 
-639:       FCFS queue: 90 89 
-640:       FCFS queue: 89 
-643:       FCFS queue: 91 
-643:       RR queue: 92 
-643:       FCFS queue: 91 
-644:       FCFS queue: 93 
-644:       FCFS queue: 93 
-645:       FCFS queue: 94 
-645:       FCFS queue: 94 93 
-645:       RR queue: 92 
-648.5:     FCFS queue: 94 93 
-651:       FCFS queue: 93 95 
-651:       RR queue: 96 
-651:       FCFS queue: 93 95 94 
-651:       RR queue: 96 
-659.5:     FCFS queue: 93 95 94 
-663:       FCFS queue: 95 94 97 
-663:       FCFS queue: 95 94 97 93 
-663:       FCFS queue: 95 94 97 93 
-667:       FCFS queue: 94 97 93 
-668.5:     FCFS queue: 97 93 
-670:       FCFS queue: 93 98 
-670:       FCFS queue: 93 98 97 
-670:       FCFS queue: 93 98 97 
-672:       FCFS queue: 98 97 99 
-672:       FCFS queue: 98 97 99 93 
-672:       FCFS queue: 98 97 99 93 
-673:       FCFS queue: 97 99 93 
-674:       FCFS queue: 99 93 100 
-674:       RR queue: 101 
-674:       FCFS queue: 99 93 100 97 
-674:       RR queue: 101 
-679.5:     FCFS queue: 99 93 100 97 
-681:       FCFS queue: 93 100 97 102 
-681:       FCFS queue: 93 100 97 102 99 
-681:       FCFS queue: 93 100 97 102 99 
-683:       FCFS queue: 100 97 102 99 103 
-683:       FCFS queue: 100 97 102 99 103 93 
-683:       FCFS queue: 100 97 102 99 103 93 
-687:       FCFS queue: 97 102 99 103 93 
-688.5:     FCFS queue: 102 99 103 93 
-693.5:     FCFS queue: 99 103 93 
-698:       FCFS queue: 103 93 104 
-698:       FCFS queue: 103 93 104 99 
-698:       FCFS queue: 103 93 104 99 
-704:       FCFS queue: 93 104 99 
-706.5:     FCFS queue: 104 99 
-715.5:     FCFS queue: 99 
-754:       FCFS queue: 105 
-754:       RR queue: 106 
-754:       FCFS queue: 105 107 
-754:       RR queue: 106 
-754.5:     FCFS queue: 105 107 
-756.5:     FCFS queue: 107 
-757:       FCFS queue: 108 
-757:       FCFS queue: 108 107 
-757:       FCFS queue: 108 107 
-758:       FCFS queue: 107 
-774:       FCFS queue: 109 
-774:       RR queue: 110 
-774:       RR queue: 110 
-784:       FCFS queue: 109 110 
-784:       FCFS queue: 109 110 
-791:       FCFS queue: 110 111 
-791:       FCFS queue: 110 111 109 
-791:       FCFS queue: 110 111 109 
-806.5:     FCFS queue: 111 109 
-812:       FCFS queue: 109 112 
-812:       FCFS queue: 109 112 111 
-812:       FCFS queue: 109 112 111 
-818:       FCFS queue: 112 111 
-821:       FCFS queue: 111 
-854:       FCFS queue: 113 
-854:       FCFS queue: 113 
-864:       FCFS queue: 114 
-864:       RR queue: 115 
-864:       RR queue: 115 
-867:       FCFS queue: 114 116 
-868.5:     FCFS queue: 114 116 
-876.5:     FCFS queue: 116 
-893:       FCFS queue: 117 
-893:       FCFS queue: 117 
-935:       FCFS queue: 118 
-935:       RR queue: 119 
-935:       RR queue: 119 
-936.5:     FCFS queue: 118 
-947:       FCFS queue: 120 
-947:       FCFS queue: 120 
-948:       FCFS queue: 121 
-948:       FCFS queue: 121 120 
-948:       FCFS queue: 121 120 
-950:       FCFS queue: 120 
-951:       FCFS queue: 122 
-951:       FCFS queue: 122 120 
-951:       FCFS queue: 122 120 
-953:       FCFS queue: 120 123 
-953:       RR queue: 124 
-953:       FCFS queue: 120 123 
-955:       FCFS queue: 123 125 
-955:       FCFS queue: 123 125 120 
-955:       RR queue: 124 
-956.5:     FCFS queue: 123 125 120 
-964:       FCFS queue: 125 120 126 
-964:       FCFS queue: 125 120 126 123 
-964:       FCFS queue: 125 120 126 123 
-980:       FCFS queue: 120 126 123 
-985:       FCFS queue: 126 123 
-986:       FCFS queue: 123 127 
-986:       FCFS queue: 123 127 126 
-986:       FCFS queue: 123 127 126 
-987.5:     FCFS queue: 127 126 
-988.5:     FCFS queue: 126 
+218:       FCFS queue: 23 24 
+218:       FCFS queue: 23 24 
+220:       FCFS queue: 24 25 
+220:       RR queue: 26 
+220:       FCFS queue: 24 25 23 
+220:       RR queue: 26 
+220.5:     FCFS queue: 24 25 23 
+221.5:     FCFS queue: 25 23 
+227.5:     FCFS queue: 23 
+228:       FCFS queue: 27 
+228:       FCFS queue: 27 23 
+228:       FCFS queue: 27 23 
+229:       FCFS queue: 23 28 
+229:       FCFS queue: 23 28 27 
+229:       FCFS queue: 23 28 27 
+233.5:     FCFS queue: 28 27 
+235.5:     FCFS queue: 27 
+239:       FCFS queue: 29 
+239:       RR queue: 30 
+239:       RR queue: 30 
+241:       FCFS queue: 29 31 
+242.5:     FCFS queue: 29 31 
+244:       FCFS queue: 31 32 
+244:       FCFS queue: 31 32 29 
+244:       FCFS queue: 31 32 29 
+246:       FCFS queue: 32 29 
+248:       FCFS queue: 29 
+256:       FCFS queue: 33 
+256:       FCFS queue: 33 
+261:       FCFS queue: 34 
+261:       RR queue: 35 
+261:       FCFS queue: 34 33 
+261:       RR queue: 35 
+263.5:     FCFS queue: 34 33 
+264:       FCFS queue: 33 36 
+264:       FCFS queue: 33 36 37 
+264:       FCFS queue: 33 36 37 34 
+264:       FCFS queue: 33 36 37 34 
+266:       FCFS queue: 36 37 34 
+267:       FCFS queue: 37 34 
+270:       FCFS queue: 34 
+272:       FCFS queue: 38 
+272:       RR queue: 39 
+272:       FCFS queue: 38 40 
+272:       FCFS queue: 38 40 34 
+272:       RR queue: 39 
+272:       FCFS queue: 38 40 34 41 
+274:       FCFS queue: 38 40 34 41 42 
+280.5:     FCFS queue: 38 40 34 41 42 
+290.5:     FCFS queue: 40 34 41 42 
+291.5:     FCFS queue: 34 41 42 
+295:       FCFS queue: 41 42 43 
+295:       RR queue: 44 
+295:       FCFS queue: 41 42 43 34 
+295:       RR queue: 44 
+300.5:     FCFS queue: 41 42 43 34 
+306.5:     FCFS queue: 42 43 34 
+313:       FCFS queue: 43 34 45 
+313:       FCFS queue: 43 34 45 42 
+313:       FCFS queue: 43 34 45 42 
+315:       FCFS queue: 34 45 42 46 
+315:       FCFS queue: 34 45 42 46 43 
+315:       FCFS queue: 34 45 42 46 43 
+317:       FCFS queue: 45 42 46 43 47 
+317:       RR queue: 48 
+317:       FCFS queue: 45 42 46 43 47 34 
+317:       RR queue: 48 
+318.5:     FCFS queue: 45 42 46 43 47 34 
+327.5:     FCFS queue: 42 46 43 47 34 
+336:       FCFS queue: 46 43 47 34 49 
+336:       FCFS queue: 46 43 47 34 49 
+338:       FCFS queue: 43 47 34 49 
+355:       FCFS queue: 47 34 49 50 
+355:       FCFS queue: 47 34 49 50 
+362:       FCFS queue: 34 49 50 
+366:       FCFS queue: 49 50 51 
+366:       RR queue: 52 
+366:       FCFS queue: 49 50 51 34 
+366:       RR queue: 52 
+366.5:     FCFS queue: 49 50 51 34 
+369.5:     FCFS queue: 50 51 34 
+372:       FCFS queue: 51 34 53 
+372:       FCFS queue: 51 34 53 54 
+372:       FCFS queue: 51 34 53 54 50 
+372:       FCFS queue: 51 34 53 54 50 
+374:       FCFS queue: 34 53 54 50 
+376:       FCFS queue: 53 54 50 55 
+376:       RR queue: 56 
+376:       FCFS queue: 53 54 50 55 34 
+376:       RR queue: 56 
+386:       FCFS queue: 53 54 50 55 34 56 
+386:       FCFS queue: 53 54 50 55 34 56 
+391:       FCFS queue: 54 50 55 34 56 
+396:       FCFS queue: 50 55 34 56 
+396.5:     FCFS queue: 55 34 56 
+399.5:     FCFS queue: 34 56 
+404.5:     FCFS queue: 56 
+408:       FCFS queue: 57 
+408:       FCFS queue: 57 56 
+408:       FCFS queue: 57 56 
+409:       FCFS queue: 56 58 
+409:       FCFS queue: 56 58 57 
+409:       FCFS queue: 56 58 57 
+412.0:     FCFS queue: 58 57 
+414:       FCFS queue: 57 59 
+414:       RR queue: 60 
+414:       FCFS queue: 57 59 61 
+414:       FCFS queue: 57 59 61 58 
+414:       RR queue: 60 
+415:       FCFS queue: 57 59 61 58 62 
+424:       FCFS queue: 57 59 61 58 62 60 
+424:       FCFS queue: 57 59 61 58 62 60 
+434:       FCFS queue: 59 61 58 62 60 
+445:       FCFS queue: 61 58 62 60 
+446:       FCFS queue: 58 62 60 63 
+446:       FCFS queue: 58 62 60 63 61 
+446:       FCFS queue: 58 62 60 63 61 
+449.0:     FCFS queue: 62 60 63 61 
+452.0:     FCFS queue: 60 63 61 
+452.5:     FCFS queue: 63 61 
+457.5:     FCFS queue: 61 
+458:       FCFS queue: 64 
+458:       RR queue: 65 
+458:       FCFS queue: 64 61 
+458:       RR queue: 65 
+460.5:     FCFS queue: 64 61 
+468:       FCFS queue: 61 66 
+468:       FCFS queue: 61 66 64 
+468:       FCFS queue: 61 66 64 
+478:       FCFS queue: 66 64 67 
+478:       FCFS queue: 66 64 67 61 
+478:       FCFS queue: 66 64 67 61 
+482:       FCFS queue: 64 67 61 
+482.5:     FCFS queue: 67 61 
+487:       FCFS queue: 61 68 
+487:       RR queue: 69 
+487:       FCFS queue: 61 68 67 
+487:       RR queue: 69 
+488:       FCFS queue: 61 68 67 70 
+489:       FCFS queue: 61 68 67 70 71 
+489:       FCFS queue: 61 68 67 70 71 72 
+489:       RR queue: 73 
+492.5:     RR queue: 73 
+496.0:     FCFS queue: 61 68 67 70 71 72 
+502:       FCFS queue: 68 67 70 71 72 74 
+502:       FCFS queue: 68 67 70 71 72 74 61 
+502:       FCFS queue: 68 67 70 71 72 74 61 
+504:       FCFS queue: 67 70 71 72 74 61 
+506.5:     FCFS queue: 70 71 72 74 61 
+507.5:     FCFS queue: 71 72 74 61 
+508.5:     FCFS queue: 72 74 61 
+514.5:     FCFS queue: 74 61 
+515.5:     FCFS queue: 61 
+525:       FCFS queue: 75 
+525:       FCFS queue: 75 
+528:       FCFS queue: 76 
+528:       RR queue: 77 
+528:       RR queue: 77 
+528.5:     FCFS queue: 76 
+529:       FCFS queue: 78 
+529:       FCFS queue: 78 79 
+529:       FCFS queue: 78 79 76 
+529:       FCFS queue: 78 79 76 
+530:       FCFS queue: 79 76 
+531:       FCFS queue: 76 
+532:       FCFS queue: 80 
+532:       RR queue: 81 
+532:       FCFS queue: 80 76 
+532:       RR queue: 81 
+542:       FCFS queue: 80 76 81 
+542:       FCFS queue: 80 76 81 
+552:       FCFS queue: 76 81 
+559.5:     FCFS queue: 81 
+565:       FCFS queue: 82 
+565:       FCFS queue: 82 
+582:       FCFS queue: 83 
+582:       FCFS queue: 83 
+603:       FCFS queue: 84 
+603:       FCFS queue: 84 
+606:       FCFS queue: 85 
+606:       RR queue: 86 
+606:       FCFS queue: 85 84 
+606:       RR queue: 86 
+609.5:     FCFS queue: 85 84 
+619:       FCFS queue: 84 87 
+619:       FCFS queue: 84 87 85 
+619:       FCFS queue: 84 87 85 
+622:       FCFS queue: 87 85 
+625:       FCFS queue: 85 88 
+625:       FCFS queue: 85 88 89 
+625:       FCFS queue: 85 88 89 87 
+625:       FCFS queue: 85 88 89 87 
+625.5:     FCFS queue: 88 89 87 
+628:       FCFS queue: 89 87 90 
+628:       RR queue: 91 
+628:       FCFS queue: 89 87 90 88 
+628:       RR queue: 91 
+628.5:     FCFS queue: 89 87 90 88 
+630:       FCFS queue: 87 90 88 92 
+630:       FCFS queue: 87 90 88 92 89 
+630:       FCFS queue: 87 90 88 92 89 
+632:       FCFS queue: 90 88 92 89 
+637:       FCFS queue: 88 92 89 
+650.5:     FCFS queue: 92 89 
+652:       FCFS queue: 89 93 
+652:       FCFS queue: 89 93 92 
+652:       FCFS queue: 89 93 92 
+652.5:     FCFS queue: 93 92 
+655.5:     FCFS queue: 92 
+674:       FCFS queue: 94 
+674:       RR queue: 95 
+674:       RR queue: 95 
+676.5:     FCFS queue: 94 
+705:       FCFS queue: 96 
+705:       FCFS queue: 96 
+711:       FCFS queue: 97 
+711:       FCFS queue: 97 98 
+711:       RR queue: 99 
+711:       RR queue: 99 
+715:       FCFS queue: 97 98 100 
+718:       FCFS queue: 97 98 100 101 
+721:       FCFS queue: 97 98 100 101 99 
+721:       FCFS queue: 97 98 100 101 99 
+724:       FCFS queue: 98 100 101 99 
+730:       FCFS queue: 100 101 99 
+744:       FCFS queue: 101 99 
+748:       FCFS queue: 99 102 
+748:       RR queue: 103 
+748:       FCFS queue: 99 102 101 
+748:       RR queue: 103 
+748.5:     FCFS queue: 99 102 101 
+750.0:     FCFS queue: 102 101 
+753:       FCFS queue: 101 104 
+753:       FCFS queue: 101 104 102 
+753:       FCFS queue: 101 104 102 
+754:       FCFS queue: 104 102 
+757:       FCFS queue: 102 
+793:       FCFS queue: 105 
+793:       FCFS queue: 105 
+814:       FCFS queue: 106 
+814:       FCFS queue: 106 
+815:       FCFS queue: 107 
+815:       RR queue: 108 
+815:       FCFS queue: 107 106 
+815:       RR queue: 108 
+821.5:     FCFS queue: 107 106 
+822:       FCFS queue: 106 109 
+822:       FCFS queue: 106 109 107 
+822:       FCFS queue: 106 109 107 
+825:       FCFS queue: 109 107 
+826:       FCFS queue: 107 110 
+826:       FCFS queue: 107 110 109 
+826:       FCFS queue: 107 110 109 
+827.5:     FCFS queue: 110 109 
+835.5:     FCFS queue: 109 
+838:       FCFS queue: 111 
+838:       FCFS queue: 111 
+861:       FCFS queue: 112 
+861:       RR queue: 113 
+861:       RR queue: 113 
+864.5:     FCFS queue: 112 
+865:       FCFS queue: 114 
+865:       FCFS queue: 114 112 
+865:       FCFS queue: 114 112 
+866:       FCFS queue: 112 
+905:       FCFS queue: 115 
+905:       FCFS queue: 115 
+953:       FCFS queue: 116 
+953:       RR queue: 117 
+953:       RR queue: 117 
+959.5:     FCFS queue: 116 
+973:       FCFS queue: 118 
+973:       FCFS queue: 118 
+977:       FCFS queue: 119 
+977:       FCFS queue: 119 118 
+977:       FCFS queue: 119 118 
+978:       FCFS queue: 118 120 
+978:       RR queue: 121 
+978:       FCFS queue: 118 120 
+979:       FCFS queue: 120 122 
+979:       FCFS queue: 120 122 
+984:       FCFS queue: 122 
+986:       FCFS queue: 123 
+986:       FCFS queue: 123 122 
+986:       RR queue: 121 
+988.5:     FCFS queue: 123 122 
+989.5:     FCFS queue: 122 
+990:       FCFS queue: 124 
+990:       RR queue: 125 
+990:       FCFS queue: 124 122 
+990:       RR queue: 125 
+994:       FCFS queue: 124 122 126 

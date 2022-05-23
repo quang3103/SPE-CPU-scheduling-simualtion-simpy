@@ -1,0 +1,1380 @@
+0:         CPU:                 CPU is IDLE
+
+10:        FCFS queue:          Process 0 burst time 36 to FCFS queue
+
+10:        RR queue:            Process 1 burst time 1.25 to RR queue
+
+10:        RR queue:            Process 2 burst time 6.25 to RR queue
+
+10:        RR queue:            Process 3 burst time 1.25 to RR queue
+
+10:        CPU:                 CPU is GIVEN TO process 1
+
+11.25:     CPU:                 Process 1 LEAVE the CPU
+
+11.25:     CPU:                 CPU is GIVEN TO process 2
+
+17.5:      CPU:                 Process 2 LEAVE the CPU
+
+17.5:      CPU:                 CPU is GIVEN TO process 3
+
+18.75:     CPU:                 Process 3 LEAVE the CPU
+
+18.75:     CPU:                 CPU is GIVEN TO process 0
+
+27:        FCFS queue:          Process 4 burst time 15 to FCFS queue
+
+27:        RR queue:            Process 5 burst time 1.25 to RR queue
+
+27:        RR queue:            Process 6 burst time 5.25 to RR queue
+
+27:        RR queue:            Process 7 burst time 8.25 to RR queue
+
+27:        RR queue:            Process 8 burst time 3.25 to RR queue
+
+27:        FCFS queue:          Process 0 burst time 27.75 to FCFS queue
+
+27:        CPU:                 Process 0 LEAVE the CPU
+
+27:        CPU:                 CPU is GIVEN TO process 5
+
+28.25:     CPU:                 Process 5 LEAVE the CPU
+
+28.25:     CPU:                 CPU is GIVEN TO process 6
+
+29:        FCFS queue:          Process 9 burst time 15 to FCFS queue
+
+29:        RR queue:            Process 10 burst time 23.25 to RR queue
+
+29:        RR queue:            Process 11 burst time 0.25 to RR queue
+
+29:        RR queue:            Process 12 burst time 2.25 to RR queue
+
+29:        RR queue:            Process 13 burst time 0.25 to RR queue
+
+29:        RR queue:            Process 14 burst time 10.25 to RR queue
+
+33.5:      CPU:                 Process 6 LEAVE the CPU
+
+33.5:      CPU:                 CPU is GIVEN TO process 7
+
+41.75:     CPU:                 Process 7 LEAVE the CPU
+
+41.75:     CPU:                 CPU is GIVEN TO process 8
+
+45.0:      CPU:                 Process 8 LEAVE the CPU
+
+45.0:      CPU:                 CPU is GIVEN TO process 10
+
+55.0:      CPU:                 Process 10 LEAVE the CPU
+
+55.0:      FCFS queue:          Process 10 burst time 13.25 to FCFS queue
+
+55.0:      CPU:                 CPU is GIVEN TO process 11
+
+55.25:     CPU:                 Process 11 LEAVE the CPU
+
+55.25:     CPU:                 CPU is GIVEN TO process 12
+
+57.5:      CPU:                 Process 12 LEAVE the CPU
+
+57.5:      CPU:                 CPU is GIVEN TO process 13
+
+57.75:     CPU:                 Process 13 LEAVE the CPU
+
+57.75:     CPU:                 CPU is GIVEN TO process 14
+
+67.75:     CPU:                 Process 14 LEAVE the CPU
+
+67.75:     FCFS queue:          Process 14 burst time 0.25 to FCFS queue
+
+67.75:     CPU:                 CPU is GIVEN TO process 4
+
+71:        FCFS queue:          Process 15 burst time 22 to FCFS queue
+
+71:        RR queue:            Process 16 burst time 34.25 to RR queue
+
+71:        RR queue:            Process 17 burst time 5.25 to RR queue
+
+71:        RR queue:            Process 18 burst time 24.25 to RR queue
+
+71:        FCFS queue:          Process 4 burst time 11.75 to FCFS queue
+
+71:        CPU:                 Process 4 LEAVE the CPU
+
+71:        CPU:                 CPU is GIVEN TO process 16
+
+81:        CPU:                 Process 16 LEAVE the CPU
+
+81:        FCFS queue:          Process 16 burst time 24.25 to FCFS queue
+
+81:        CPU:                 CPU is GIVEN TO process 17
+
+86.25:     CPU:                 Process 17 LEAVE the CPU
+
+86.25:     CPU:                 CPU is GIVEN TO process 18
+
+96.25:     CPU:                 Process 18 LEAVE the CPU
+
+96.25:     FCFS queue:          Process 18 burst time 14.25 to FCFS queue
+
+96.25:     CPU:                 CPU is GIVEN TO process 0
+
+104:       FCFS queue:          Process 19 burst time 10 to FCFS queue
+
+104:       RR queue:            Process 20 burst time 2.25 to RR queue
+
+104:       RR queue:            Process 21 burst time 7.25 to RR queue
+
+104:       RR queue:            Process 22 burst time 7.25 to RR queue
+
+104:       FCFS queue:          Process 0 burst time 20.0 to FCFS queue
+
+104:       CPU:                 Process 0 LEAVE the CPU
+
+104:       CPU:                 CPU is GIVEN TO process 20
+
+105:       FCFS queue:          Process 23 burst time 25 to FCFS queue
+
+105:       RR queue:            Process 24 burst time 24.25 to RR queue
+
+105:       RR queue:            Process 25 burst time 3.25 to RR queue
+
+105:       RR queue:            Process 26 burst time 1.25 to RR queue
+
+106.25:    CPU:                 Process 20 LEAVE the CPU
+
+106.25:    CPU:                 CPU is GIVEN TO process 21
+
+111:       FCFS queue:          Process 27 burst time 11 to FCFS queue
+
+111:       RR queue:            Process 28 burst time 21.25 to RR queue
+
+111:       RR queue:            Process 29 burst time 0.25 to RR queue
+
+111:       RR queue:            Process 30 burst time 4.25 to RR queue
+
+111:       RR queue:            Process 31 burst time 10.25 to RR queue
+
+111:       RR queue:            Process 32 burst time 48.25 to RR queue
+
+111:       RR queue:            Process 33 burst time 4.25 to RR queue
+
+113.5:     CPU:                 Process 21 LEAVE the CPU
+
+113.5:     CPU:                 CPU is GIVEN TO process 22
+
+120.75:    CPU:                 Process 22 LEAVE the CPU
+
+120.75:    CPU:                 CPU is GIVEN TO process 24
+
+130.75:    CPU:                 Process 24 LEAVE the CPU
+
+130.75:    FCFS queue:          Process 24 burst time 14.25 to FCFS queue
+
+130.75:    CPU:                 CPU is GIVEN TO process 25
+
+134.0:     CPU:                 Process 25 LEAVE the CPU
+
+134.0:     CPU:                 CPU is GIVEN TO process 26
+
+135.25:    CPU:                 Process 26 LEAVE the CPU
+
+135.25:    CPU:                 CPU is GIVEN TO process 28
+
+145.25:    CPU:                 Process 28 LEAVE the CPU
+
+145.25:    FCFS queue:          Process 28 burst time 11.25 to FCFS queue
+
+145.25:    CPU:                 CPU is GIVEN TO process 29
+
+145.5:     CPU:                 Process 29 LEAVE the CPU
+
+145.5:     CPU:                 CPU is GIVEN TO process 30
+
+149.75:    CPU:                 Process 30 LEAVE the CPU
+
+149.75:    CPU:                 CPU is GIVEN TO process 31
+
+159.75:    CPU:                 Process 31 LEAVE the CPU
+
+159.75:    FCFS queue:          Process 31 burst time 0.25 to FCFS queue
+
+159.75:    CPU:                 CPU is GIVEN TO process 32
+
+161:       FCFS queue:          Process 34 burst time 14 to FCFS queue
+
+161:       RR queue:            Process 35 burst time 6.25 to RR queue
+
+161:       RR queue:            Process 36 burst time 0.25 to RR queue
+
+161:       RR queue:            Process 37 burst time 2.25 to RR queue
+
+169.75:    CPU:                 Process 32 LEAVE the CPU
+
+169.75:    FCFS queue:          Process 32 burst time 38.25 to FCFS queue
+
+169.75:    CPU:                 CPU is GIVEN TO process 33
+
+174.0:     CPU:                 Process 33 LEAVE the CPU
+
+174.0:     CPU:                 CPU is GIVEN TO process 35
+
+180.25:    CPU:                 Process 35 LEAVE the CPU
+
+180.25:    CPU:                 CPU is GIVEN TO process 36
+
+180.5:     CPU:                 Process 36 LEAVE the CPU
+
+180.5:     CPU:                 CPU is GIVEN TO process 37
+
+182.75:    CPU:                 Process 37 LEAVE the CPU
+
+182.75:    CPU:                 CPU is GIVEN TO process 9
+
+184:       FCFS queue:          Process 38 burst time 6 to FCFS queue
+
+184:       RR queue:            Process 39 burst time 12.25 to RR queue
+
+184:       RR queue:            Process 40 burst time 4.25 to RR queue
+
+184:       RR queue:            Process 41 burst time 1.25 to RR queue
+
+184:       RR queue:            Process 42 burst time 42.25 to RR queue
+
+184:       RR queue:            Process 43 burst time 4.25 to RR queue
+
+184:       FCFS queue:          Process 9 burst time 13.75 to FCFS queue
+
+184:       CPU:                 Process 9 LEAVE the CPU
+
+184:       CPU:                 CPU is GIVEN TO process 39
+
+194:       CPU:                 Process 39 LEAVE the CPU
+
+194:       FCFS queue:          Process 39 burst time 2.25 to FCFS queue
+
+194:       CPU:                 CPU is GIVEN TO process 40
+
+198.25:    CPU:                 Process 40 LEAVE the CPU
+
+198.25:    CPU:                 CPU is GIVEN TO process 41
+
+199.5:     CPU:                 Process 41 LEAVE the CPU
+
+199.5:     CPU:                 CPU is GIVEN TO process 42
+
+207:       FCFS queue:          Process 44 burst time 3 to FCFS queue
+
+207:       RR queue:            Process 45 burst time 9.25 to RR queue
+
+207:       RR queue:            Process 46 burst time 1.25 to RR queue
+
+207:       RR queue:            Process 47 burst time 4.25 to RR queue
+
+209.5:     CPU:                 Process 42 LEAVE the CPU
+
+209.5:     FCFS queue:          Process 42 burst time 32.25 to FCFS queue
+
+209.5:     CPU:                 CPU is GIVEN TO process 43
+
+213.75:    CPU:                 Process 43 LEAVE the CPU
+
+213.75:    CPU:                 CPU is GIVEN TO process 45
+
+223.0:     CPU:                 Process 45 LEAVE the CPU
+
+223.0:     CPU:                 CPU is GIVEN TO process 46
+
+224.25:    CPU:                 Process 46 LEAVE the CPU
+
+224.25:    CPU:                 CPU is GIVEN TO process 47
+
+225:       FCFS queue:          Process 48 burst time 6 to FCFS queue
+
+225:       RR queue:            Process 49 burst time 7.25 to RR queue
+
+225:       RR queue:            Process 50 burst time 29.25 to RR queue
+
+225:       RR queue:            Process 51 burst time 13.25 to RR queue
+
+228.5:     CPU:                 Process 47 LEAVE the CPU
+
+228.5:     CPU:                 CPU is GIVEN TO process 49
+
+235.75:    CPU:                 Process 49 LEAVE the CPU
+
+235.75:    CPU:                 CPU is GIVEN TO process 50
+
+245.75:    CPU:                 Process 50 LEAVE the CPU
+
+245.75:    FCFS queue:          Process 50 burst time 19.25 to FCFS queue
+
+245.75:    CPU:                 CPU is GIVEN TO process 51
+
+255.75:    CPU:                 Process 51 LEAVE the CPU
+
+255.75:    FCFS queue:          Process 51 burst time 3.25 to FCFS queue
+
+255.75:    CPU:                 CPU is GIVEN TO process 10
+
+269.0:     CPU:                 Process 10 LEAVE the CPU
+
+269.0:     CPU:                 CPU is GIVEN TO process 14
+
+269.25:    CPU:                 Process 14 LEAVE the CPU
+
+269.25:    CPU:                 CPU is GIVEN TO process 15
+
+278:       FCFS queue:          Process 52 burst time 9 to FCFS queue
+
+278:       RR queue:            Process 53 burst time 13.25 to RR queue
+
+278:       RR queue:            Process 54 burst time 22.25 to RR queue
+
+278:       RR queue:            Process 55 burst time 7.25 to RR queue
+
+278:       RR queue:            Process 56 burst time 8.25 to RR queue
+
+278:       FCFS queue:          Process 15 burst time 13.25 to FCFS queue
+
+278:       CPU:                 Process 15 LEAVE the CPU
+
+278:       CPU:                 CPU is GIVEN TO process 53
+
+280:       FCFS queue:          Process 57 burst time 7 to FCFS queue
+
+280:       RR queue:            Process 58 burst time 1.25 to RR queue
+
+280:       RR queue:            Process 59 burst time 0.25 to RR queue
+
+280:       RR queue:            Process 60 burst time 20.25 to RR queue
+
+280:       RR queue:            Process 61 burst time 13.25 to RR queue
+
+280:       RR queue:            Process 62 burst time 12.25 to RR queue
+
+280:       RR queue:            Process 63 burst time 0.25 to RR queue
+
+285:       FCFS queue:          Process 64 burst time 12 to FCFS queue
+
+285:       RR queue:            Process 65 burst time 7.25 to RR queue
+
+285:       RR queue:            Process 66 burst time 32.25 to RR queue
+
+285:       RR queue:            Process 67 burst time 4.25 to RR queue
+
+285:       RR queue:            Process 68 burst time 1.25 to RR queue
+
+285:       RR queue:            Process 69 burst time 4.25 to RR queue
+
+288:       CPU:                 Process 53 LEAVE the CPU
+
+288:       FCFS queue:          Process 53 burst time 3.25 to FCFS queue
+
+288:       CPU:                 CPU is GIVEN TO process 54
+
+298:       CPU:                 Process 54 LEAVE the CPU
+
+298:       FCFS queue:          Process 54 burst time 12.25 to FCFS queue
+
+298:       CPU:                 CPU is GIVEN TO process 55
+
+305.25:    CPU:                 Process 55 LEAVE the CPU
+
+305.25:    CPU:                 CPU is GIVEN TO process 56
+
+313.5:     CPU:                 Process 56 LEAVE the CPU
+
+313.5:     CPU:                 CPU is GIVEN TO process 58
+
+314.75:    CPU:                 Process 58 LEAVE the CPU
+
+314.75:    CPU:                 CPU is GIVEN TO process 59
+
+315.0:     CPU:                 Process 59 LEAVE the CPU
+
+315.0:     CPU:                 CPU is GIVEN TO process 60
+
+325.0:     CPU:                 Process 60 LEAVE the CPU
+
+325.0:     FCFS queue:          Process 60 burst time 10.25 to FCFS queue
+
+325.0:     CPU:                 CPU is GIVEN TO process 61
+
+335.0:     CPU:                 Process 61 LEAVE the CPU
+
+335.0:     FCFS queue:          Process 61 burst time 3.25 to FCFS queue
+
+335.0:     CPU:                 CPU is GIVEN TO process 62
+
+345.0:     CPU:                 Process 62 LEAVE the CPU
+
+345.0:     FCFS queue:          Process 62 burst time 2.25 to FCFS queue
+
+345.0:     CPU:                 CPU is GIVEN TO process 63
+
+345.25:    CPU:                 Process 63 LEAVE the CPU
+
+345.25:    CPU:                 CPU is GIVEN TO process 65
+
+352.5:     CPU:                 Process 65 LEAVE the CPU
+
+352.5:     CPU:                 CPU is GIVEN TO process 66
+
+362.5:     CPU:                 Process 66 LEAVE the CPU
+
+362.5:     FCFS queue:          Process 66 burst time 22.25 to FCFS queue
+
+362.5:     CPU:                 CPU is GIVEN TO process 67
+
+366.75:    CPU:                 Process 67 LEAVE the CPU
+
+366.75:    CPU:                 CPU is GIVEN TO process 68
+
+368.0:     CPU:                 Process 68 LEAVE the CPU
+
+368.0:     CPU:                 CPU is GIVEN TO process 69
+
+372.25:    CPU:                 Process 69 LEAVE the CPU
+
+372.25:    CPU:                 CPU is GIVEN TO process 4
+
+374:       FCFS queue:          Process 70 burst time 17 to FCFS queue
+
+374:       RR queue:            Process 71 burst time 5.25 to RR queue
+
+374:       RR queue:            Process 72 burst time 16.25 to RR queue
+
+374:       RR queue:            Process 73 burst time 10.25 to RR queue
+
+374:       RR queue:            Process 74 burst time 7.25 to RR queue
+
+374:       RR queue:            Process 75 burst time 6.25 to RR queue
+
+374:       RR queue:            Process 76 burst time 7.25 to RR queue
+
+374:       FCFS queue:          Process 4 burst time 10.0 to FCFS queue
+
+374:       CPU:                 Process 4 LEAVE the CPU
+
+374:       CPU:                 CPU is GIVEN TO process 71
+
+379.25:    CPU:                 Process 71 LEAVE the CPU
+
+379.25:    CPU:                 CPU is GIVEN TO process 72
+
+383:       FCFS queue:          Process 77 burst time 7 to FCFS queue
+
+383:       RR queue:            Process 78 burst time 17.25 to RR queue
+
+383:       RR queue:            Process 79 burst time 9.25 to RR queue
+
+383:       RR queue:            Process 80 burst time 2.25 to RR queue
+
+383:       RR queue:            Process 81 burst time 18.25 to RR queue
+
+383:       RR queue:            Process 82 burst time 6.25 to RR queue
+
+383:       RR queue:            Process 83 burst time 12.25 to RR queue
+
+386:       FCFS queue:          Process 84 burst time 8 to FCFS queue
+
+386:       RR queue:            Process 85 burst time 2.25 to RR queue
+
+386:       RR queue:            Process 86 burst time 11.25 to RR queue
+
+386:       RR queue:            Process 87 burst time 5.25 to RR queue
+
+386:       RR queue:            Process 88 burst time 2.25 to RR queue
+
+386:       RR queue:            Process 89 burst time 6.25 to RR queue
+
+386:       FCFS queue:          Process 90 burst time 6 to FCFS queue
+
+386:       RR queue:            Process 91 burst time 5.25 to RR queue
+
+386:       RR queue:            Process 92 burst time 11.25 to RR queue
+
+386:       RR queue:            Process 93 burst time 7.25 to RR queue
+
+386:       RR queue:            Process 94 burst time 14.25 to RR queue
+
+389.25:    CPU:                 Process 72 LEAVE the CPU
+
+389.25:    FCFS queue:          Process 72 burst time 6.25 to FCFS queue
+
+389.25:    CPU:                 CPU is GIVEN TO process 73
+
+399.25:    CPU:                 Process 73 LEAVE the CPU
+
+399.25:    FCFS queue:          Process 73 burst time 0.25 to FCFS queue
+
+399.25:    CPU:                 CPU is GIVEN TO process 74
+
+406.5:     CPU:                 Process 74 LEAVE the CPU
+
+406.5:     CPU:                 CPU is GIVEN TO process 75
+
+412.75:    CPU:                 Process 75 LEAVE the CPU
+
+412.75:    CPU:                 CPU is GIVEN TO process 76
+
+416:       FCFS queue:          Process 95 burst time 3 to FCFS queue
+
+416:       RR queue:            Process 96 burst time 7.25 to RR queue
+
+416:       RR queue:            Process 97 burst time 1.25 to RR queue
+
+416:       RR queue:            Process 98 burst time 11.25 to RR queue
+
+416:       RR queue:            Process 99 burst time 11.25 to RR queue
+
+420.0:     CPU:                 Process 76 LEAVE the CPU
+
+420.0:     CPU:                 CPU is GIVEN TO process 78
+
+430.0:     CPU:                 Process 78 LEAVE the CPU
+
+430.0:     FCFS queue:          Process 78 burst time 7.25 to FCFS queue
+
+430.0:     CPU:                 CPU is GIVEN TO process 79
+
+439.25:    CPU:                 Process 79 LEAVE the CPU
+
+439.25:    CPU:                 CPU is GIVEN TO process 80
+
+441.5:     CPU:                 Process 80 LEAVE the CPU
+
+441.5:     CPU:                 CPU is GIVEN TO process 81
+
+443:       FCFS queue:          Process 100 burst time 11 to FCFS queue
+
+443:       RR queue:            Process 101 burst time 19.25 to RR queue
+
+443:       RR queue:            Process 102 burst time 39.25 to RR queue
+
+443:       RR queue:            Process 103 burst time 10.25 to RR queue
+
+451.5:     CPU:                 Process 81 LEAVE the CPU
+
+451.5:     FCFS queue:          Process 81 burst time 8.25 to FCFS queue
+
+451.5:     CPU:                 CPU is GIVEN TO process 82
+
+457.75:    CPU:                 Process 82 LEAVE the CPU
+
+457.75:    CPU:                 CPU is GIVEN TO process 83
+
+465:       FCFS queue:          Process 104 burst time 4 to FCFS queue
+
+465:       RR queue:            Process 105 burst time 30.25 to RR queue
+
+465:       RR queue:            Process 106 burst time 0.25 to RR queue
+
+465:       RR queue:            Process 107 burst time 5.25 to RR queue
+
+465:       RR queue:            Process 108 burst time 2.25 to RR queue
+
+465:       RR queue:            Process 109 burst time 5.25 to RR queue
+
+467.75:    CPU:                 Process 83 LEAVE the CPU
+
+467.75:    FCFS queue:          Process 83 burst time 2.25 to FCFS queue
+
+467.75:    CPU:                 CPU is GIVEN TO process 85
+
+470.0:     CPU:                 Process 85 LEAVE the CPU
+
+470.0:     CPU:                 CPU is GIVEN TO process 86
+
+480.0:     CPU:                 Process 86 LEAVE the CPU
+
+480.0:     FCFS queue:          Process 86 burst time 1.25 to FCFS queue
+
+480.0:     CPU:                 CPU is GIVEN TO process 87
+
+485.25:    CPU:                 Process 87 LEAVE the CPU
+
+485.25:    CPU:                 CPU is GIVEN TO process 88
+
+487.5:     CPU:                 Process 88 LEAVE the CPU
+
+487.5:     CPU:                 CPU is GIVEN TO process 89
+
+493.75:    CPU:                 Process 89 LEAVE the CPU
+
+493.75:    CPU:                 CPU is GIVEN TO process 91
+
+499:       FCFS queue:          Process 110 burst time 11 to FCFS queue
+
+499:       RR queue:            Process 111 burst time 5.25 to RR queue
+
+499:       RR queue:            Process 112 burst time 36.25 to RR queue
+
+499:       RR queue:            Process 113 burst time 15.25 to RR queue
+
+499.0:     CPU:                 Process 91 LEAVE the CPU
+
+499.0:     CPU:                 CPU is GIVEN TO process 92
+
+509.0:     CPU:                 Process 92 LEAVE the CPU
+
+509.0:     FCFS queue:          Process 92 burst time 1.25 to FCFS queue
+
+509.0:     CPU:                 CPU is GIVEN TO process 93
+
+516.25:    CPU:                 Process 93 LEAVE the CPU
+
+516.25:    CPU:                 CPU is GIVEN TO process 94
+
+526.25:    CPU:                 Process 94 LEAVE the CPU
+
+526.25:    FCFS queue:          Process 94 burst time 4.25 to FCFS queue
+
+526.25:    CPU:                 CPU is GIVEN TO process 96
+
+533.5:     CPU:                 Process 96 LEAVE the CPU
+
+533.5:     CPU:                 CPU is GIVEN TO process 97
+
+534.75:    CPU:                 Process 97 LEAVE the CPU
+
+534.75:    CPU:                 CPU is GIVEN TO process 98
+
+544.75:    CPU:                 Process 98 LEAVE the CPU
+
+544.75:    FCFS queue:          Process 98 burst time 1.25 to FCFS queue
+
+544.75:    CPU:                 CPU is GIVEN TO process 99
+
+554.75:    CPU:                 Process 99 LEAVE the CPU
+
+554.75:    FCFS queue:          Process 99 burst time 1.25 to FCFS queue
+
+554.75:    CPU:                 CPU is GIVEN TO process 101
+
+564:       FCFS queue:          Process 114 burst time 3 to FCFS queue
+
+564:       RR queue:            Process 115 burst time 15.25 to RR queue
+
+564:       RR queue:            Process 116 burst time 11.25 to RR queue
+
+564:       RR queue:            Process 117 burst time 4.25 to RR queue
+
+564:       RR queue:            Process 118 burst time 7.25 to RR queue
+
+564.75:    CPU:                 Process 101 LEAVE the CPU
+
+564.75:    FCFS queue:          Process 101 burst time 9.25 to FCFS queue
+
+564.75:    CPU:                 CPU is GIVEN TO process 102
+
+567:       FCFS queue:          Process 119 burst time 4 to FCFS queue
+
+567:       RR queue:            Process 120 burst time 7.25 to RR queue
+
+567:       RR queue:            Process 121 burst time 1.25 to RR queue
+
+567:       RR queue:            Process 122 burst time 4.25 to RR queue
+
+567:       RR queue:            Process 123 burst time 2.25 to RR queue
+
+567:       RR queue:            Process 124 burst time 18.25 to RR queue
+
+567:       RR queue:            Process 125 burst time 4.25 to RR queue
+
+574.75:    CPU:                 Process 102 LEAVE the CPU
+
+574.75:    FCFS queue:          Process 102 burst time 29.25 to FCFS queue
+
+574.75:    CPU:                 CPU is GIVEN TO process 103
+
+584.75:    CPU:                 Process 103 LEAVE the CPU
+
+584.75:    FCFS queue:          Process 103 burst time 0.25 to FCFS queue
+
+584.75:    CPU:                 CPU is GIVEN TO process 105
+
+594.75:    CPU:                 Process 105 LEAVE the CPU
+
+594.75:    FCFS queue:          Process 105 burst time 20.25 to FCFS queue
+
+594.75:    CPU:                 CPU is GIVEN TO process 106
+
+595.0:     CPU:                 Process 106 LEAVE the CPU
+
+595.0:     CPU:                 CPU is GIVEN TO process 107
+
+600.25:    CPU:                 Process 107 LEAVE the CPU
+
+600.25:    CPU:                 CPU is GIVEN TO process 108
+
+602.5:     CPU:                 Process 108 LEAVE the CPU
+
+602.5:     CPU:                 CPU is GIVEN TO process 109
+
+607.75:    CPU:                 Process 109 LEAVE the CPU
+
+607.75:    CPU:                 CPU is GIVEN TO process 111
+
+613.0:     CPU:                 Process 111 LEAVE the CPU
+
+613.0:     CPU:                 CPU is GIVEN TO process 112
+
+623.0:     CPU:                 Process 112 LEAVE the CPU
+
+623.0:     FCFS queue:          Process 112 burst time 26.25 to FCFS queue
+
+623.0:     CPU:                 CPU is GIVEN TO process 113
+
+633.0:     CPU:                 Process 113 LEAVE the CPU
+
+633.0:     FCFS queue:          Process 113 burst time 5.25 to FCFS queue
+
+633.0:     CPU:                 CPU is GIVEN TO process 115
+
+643.0:     CPU:                 Process 115 LEAVE the CPU
+
+643.0:     FCFS queue:          Process 115 burst time 5.25 to FCFS queue
+
+643.0:     CPU:                 CPU is GIVEN TO process 116
+
+653.0:     CPU:                 Process 116 LEAVE the CPU
+
+653.0:     FCFS queue:          Process 116 burst time 1.25 to FCFS queue
+
+653.0:     CPU:                 CPU is GIVEN TO process 117
+
+657.25:    CPU:                 Process 117 LEAVE the CPU
+
+657.25:    CPU:                 CPU is GIVEN TO process 118
+
+664.5:     CPU:                 Process 118 LEAVE the CPU
+
+664.5:     CPU:                 CPU is GIVEN TO process 120
+
+671.75:    CPU:                 Process 120 LEAVE the CPU
+
+671.75:    CPU:                 CPU is GIVEN TO process 121
+
+673.0:     CPU:                 Process 121 LEAVE the CPU
+
+673.0:     CPU:                 CPU is GIVEN TO process 122
+
+676:       FCFS queue:          Process 126 burst time 17 to FCFS queue
+
+676:       RR queue:            Process 127 burst time 6.25 to RR queue
+
+676:       RR queue:            Process 128 burst time 5.25 to RR queue
+
+676:       RR queue:            Process 129 burst time 0.25 to RR queue
+
+677.25:    CPU:                 Process 122 LEAVE the CPU
+
+677.25:    CPU:                 CPU is GIVEN TO process 123
+
+679.5:     CPU:                 Process 123 LEAVE the CPU
+
+679.5:     CPU:                 CPU is GIVEN TO process 124
+
+684:       FCFS queue:          Process 130 burst time 3 to FCFS queue
+
+684:       RR queue:            Process 131 burst time 10.25 to RR queue
+
+684:       RR queue:            Process 132 burst time 2.25 to RR queue
+
+684:       RR queue:            Process 133 burst time 3.25 to RR queue
+
+684:       RR queue:            Process 134 burst time 6.25 to RR queue
+
+684:       RR queue:            Process 135 burst time 3.25 to RR queue
+
+689.5:     CPU:                 Process 124 LEAVE the CPU
+
+689.5:     FCFS queue:          Process 124 burst time 8.25 to FCFS queue
+
+689.5:     CPU:                 CPU is GIVEN TO process 125
+
+691:       FCFS queue:          Process 136 burst time 4 to FCFS queue
+
+691:       RR queue:            Process 137 burst time 6.25 to RR queue
+
+691:       RR queue:            Process 138 burst time 1.25 to RR queue
+
+691:       RR queue:            Process 139 burst time 6.25 to RR queue
+
+691:       RR queue:            Process 140 burst time 2.25 to RR queue
+
+691:       RR queue:            Process 141 burst time 4.25 to RR queue
+
+691:       FCFS queue:          Process 142 burst time 18 to FCFS queue
+
+691:       RR queue:            Process 143 burst time 21.25 to RR queue
+
+691:       RR queue:            Process 144 burst time 8.25 to RR queue
+
+691:       RR queue:            Process 145 burst time 17.25 to RR queue
+
+691:       RR queue:            Process 146 burst time 15.25 to RR queue
+
+691:       RR queue:            Process 147 burst time 15.25 to RR queue
+
+693.75:    CPU:                 Process 125 LEAVE the CPU
+
+693.75:    CPU:                 CPU is GIVEN TO process 127
+
+700.0:     CPU:                 Process 127 LEAVE the CPU
+
+700.0:     CPU:                 CPU is GIVEN TO process 128
+
+704:       FCFS queue:          Process 148 burst time 17 to FCFS queue
+
+704:       RR queue:            Process 149 burst time 2.25 to RR queue
+
+704:       RR queue:            Process 150 burst time 2.25 to RR queue
+
+704:       RR queue:            Process 151 burst time 11.25 to RR queue
+
+705.25:    CPU:                 Process 128 LEAVE the CPU
+
+705.25:    CPU:                 CPU is GIVEN TO process 129
+
+705.5:     CPU:                 Process 129 LEAVE the CPU
+
+705.5:     CPU:                 CPU is GIVEN TO process 131
+
+715.5:     CPU:                 Process 131 LEAVE the CPU
+
+715.5:     FCFS queue:          Process 131 burst time 0.25 to FCFS queue
+
+715.5:     CPU:                 CPU is GIVEN TO process 132
+
+717.75:    CPU:                 Process 132 LEAVE the CPU
+
+717.75:    CPU:                 CPU is GIVEN TO process 133
+
+721.0:     CPU:                 Process 133 LEAVE the CPU
+
+721.0:     CPU:                 CPU is GIVEN TO process 134
+
+727.25:    CPU:                 Process 134 LEAVE the CPU
+
+727.25:    CPU:                 CPU is GIVEN TO process 135
+
+730:       FCFS queue:          Process 152 burst time 12 to FCFS queue
+
+730:       RR queue:            Process 153 burst time 2.25 to RR queue
+
+730:       RR queue:            Process 154 burst time 4.25 to RR queue
+
+730:       RR queue:            Process 155 burst time 0.25 to RR queue
+
+730:       RR queue:            Process 156 burst time 2.25 to RR queue
+
+730.5:     CPU:                 Process 135 LEAVE the CPU
+
+730.5:     CPU:                 CPU is GIVEN TO process 137
+
+736.75:    CPU:                 Process 137 LEAVE the CPU
+
+736.75:    CPU:                 CPU is GIVEN TO process 138
+
+738.0:     CPU:                 Process 138 LEAVE the CPU
+
+738.0:     CPU:                 CPU is GIVEN TO process 139
+
+744.25:    CPU:                 Process 139 LEAVE the CPU
+
+744.25:    CPU:                 CPU is GIVEN TO process 140
+
+746.5:     CPU:                 Process 140 LEAVE the CPU
+
+746.5:     CPU:                 CPU is GIVEN TO process 141
+
+750.75:    CPU:                 Process 141 LEAVE the CPU
+
+750.75:    CPU:                 CPU is GIVEN TO process 143
+
+751:       FCFS queue:          Process 157 burst time 4 to FCFS queue
+
+751:       RR queue:            Process 158 burst time 1.25 to RR queue
+
+751:       RR queue:            Process 159 burst time 3.25 to RR queue
+
+751:       RR queue:            Process 160 burst time 8.25 to RR queue
+
+751:       RR queue:            Process 161 burst time 5.25 to RR queue
+
+760.75:    CPU:                 Process 143 LEAVE the CPU
+
+760.75:    FCFS queue:          Process 143 burst time 11.25 to FCFS queue
+
+760.75:    CPU:                 CPU is GIVEN TO process 144
+
+769.0:     CPU:                 Process 144 LEAVE the CPU
+
+769.0:     CPU:                 CPU is GIVEN TO process 145
+
+774:       FCFS queue:          Process 162 burst time 9 to FCFS queue
+
+774:       RR queue:            Process 163 burst time 3.25 to RR queue
+
+774:       RR queue:            Process 164 burst time 2.25 to RR queue
+
+774:       RR queue:            Process 165 burst time 1.25 to RR queue
+
+774:       RR queue:            Process 166 burst time 6.25 to RR queue
+
+774:       RR queue:            Process 167 burst time 12.25 to RR queue
+
+774:       RR queue:            Process 168 burst time 7.25 to RR queue
+
+779.0:     CPU:                 Process 145 LEAVE the CPU
+
+779.0:     FCFS queue:          Process 145 burst time 7.25 to FCFS queue
+
+779.0:     CPU:                 CPU is GIVEN TO process 146
+
+789.0:     CPU:                 Process 146 LEAVE the CPU
+
+789.0:     FCFS queue:          Process 146 burst time 5.25 to FCFS queue
+
+789.0:     CPU:                 CPU is GIVEN TO process 147
+
+799.0:     CPU:                 Process 147 LEAVE the CPU
+
+799.0:     FCFS queue:          Process 147 burst time 5.25 to FCFS queue
+
+799.0:     CPU:                 CPU is GIVEN TO process 149
+
+801.25:    CPU:                 Process 149 LEAVE the CPU
+
+801.25:    CPU:                 CPU is GIVEN TO process 150
+
+803.5:     CPU:                 Process 150 LEAVE the CPU
+
+803.5:     CPU:                 CPU is GIVEN TO process 151
+
+812:       FCFS queue:          Process 169 burst time 27 to FCFS queue
+
+812:       RR queue:            Process 170 burst time 0.25 to RR queue
+
+812:       RR queue:            Process 171 burst time 4.25 to RR queue
+
+812:       RR queue:            Process 172 burst time 10.25 to RR queue
+
+     Process 219 burst time 0.25 to RR queue
+
+688:       RR queue:            Process 220 burst time 20.25 to RR queue
+
+688:       RR queue:            Process 221 burst time 14.25 to RR queue
+
+688:       RR queue:            Process 222 burst time 18.25 to RR queue
+
+688:       RR queue:            Process 223 burst time 4.25 to RR queue
+
+694.25:    CPU:                 Process 134 LEAVE the CPU
+
+694.25:    FCFS queue:          Process 134 burst time 1.25 to FCFS queue
+
+694.25:    CPU:                 CPU is GIVEN TO process 136
+
+695.5:     CPU:                 Process 136 LEAVE the CPU
+
+695.5:     CPU:                 CPU is GIVEN TO process 137
+
+696.75:    CPU:                 Process 137 LEAVE the CPU
+
+696.75:    CPU:                 CPU is GIVEN TO process 138
+
+701.0:     CPU:                 Process 138 LEAVE the CPU
+
+701.0:     CPU:                 CPU is GIVEN TO process 140
+
+708:       FCFS queue:          Process 224 burst time 9 to FCFS queue
+
+708:       RR queue:            Process 225 burst time 16.25 to RR queue
+
+708:       RR queue:            Process 226 burst time 14.25 to RR queue
+
+708:       RR queue:            Process 227 burst time 11.25 to RR queue
+
+711.0:     CPU:                 Process 140 LEAVE the CPU
+
+711.0:     FCFS queue:          Process 140 burst time 3.25 to FCFS queue
+
+711.0:     CPU:                 CPU is GIVEN TO process 141
+
+721.0:     CPU:                 Process 141 LEAVE the CPU
+
+721.0:     FCFS queue:          Process 141 burst time 8.25 to FCFS queue
+
+721.0:     CPU:                 CPU is GIVEN TO process 142
+
+721.25:    CPU:                 Process 142 LEAVE the CPU
+
+721.25:    CPU:                 CPU is GIVEN TO process 143
+
+725.5:     CPU:                 Process 143 LEAVE the CPU
+
+725.5:     CPU:                 CPU is GIVEN TO process 145
+
+726.75:    CPU:                 Process 145 LEAVE the CPU
+
+726.75:    CPU:                 CPU is GIVEN TO process 146
+
+728.0:     CPU:                 Process 146 LEAVE the CPU
+
+728.0:     CPU:                 CPU is GIVEN TO process 147
+
+734:       FCFS queue:          Process 228 burst time 12 to FCFS queue
+
+734:       RR queue:            Process 229 burst time 17.25 to RR queue
+
+734:       RR queue:            Process 230 burst time 16.25 to RR queue
+
+734:       RR queue:            Process 231 burst time 22.25 to RR queue
+
+734:       RR queue:            Process 232 burst time 3.25 to RR queue
+
+738.0:     CPU:                 Process 147 LEAVE the CPU
+
+738.0:     FCFS queue:          Process 147 burst time 8.25 to FCFS queue
+
+738.0:     CPU:                 CPU is GIVEN TO process 148
+
+748.0:     CPU:                 Process 148 LEAVE the CPU
+
+748.0:     FCFS queue:          Process 148 burst time 0.25 to FCFS queue
+
+748.0:     CPU:                 CPU is GIVEN TO process 150
+
+755.25:    CPU:                 Process 150 LEAVE the CPU
+
+755.25:    CPU:                 CPU is GIVEN TO process 151
+
+755.5:     CPU:                 Process 151 LEAVE the CPU
+
+755.5:     CPU:                 CPU is GIVEN TO process 152
+
+765.5:     CPU:                 Process 152 LEAVE the CPU
+
+765.5:     FCFS queue:          Process 152 burst time 1.25 to FCFS queue
+
+765.5:     CPU:                 CPU is GIVEN TO process 153
+
+775.5:     CPU:                 Process 153 LEAVE the CPU
+
+775.5:     FCFS queue:          Process 153 burst time 2.25 to FCFS queue
+
+775.5:     CPU:                 CPU is GIVEN TO process 154
+
+776:       FCFS queue:          Process 233 burst time 7 to FCFS queue
+
+776:       RR queue:            Process 234 burst time 11.25 to RR queue
+
+776:       RR queue:            Process 235 burst time 4.25 to RR queue
+
+776:       RR queue:            Process 236 burst time 0.25 to RR queue
+
+783:       FCFS queue:          Process 237 burst time 7 to FCFS queue
+
+783:       RR queue:            Process 238 burst time 20.25 to RR queue
+
+783:       RR queue:            Process 239 burst time 0.25 to RR queue
+
+783:       RR queue:            Process 240 burst time 0.25 to RR queue
+
+783:       RR queue:            Process 241 burst time 0.25 to RR queue
+
+783.75:    CPU:                 Process 154 LEAVE the CPU
+
+783.75:    CPU:                 CPU is GIVEN TO process 156
+
+793.75:    CPU:                 Process 156 LEAVE the CPU
+
+793.75:    FCFS queue:          Process 156 burst time 3.25 to FCFS queue
+
+793.75:    CPU:                 CPU is GIVEN TO process 157
+
+800:       FCFS queue:          Process 242 burst time 29 to FCFS queue
+
+800:       RR queue:            Process 243 burst time 10.25 to RR queue
+
+800:       RR queue:            Process 244 burst time 7.25 to RR queue
+
+800:       RR queue:            Process 245 burst time 18.25 to RR queue
+
+800:       RR queue:            Process 246 burst time 0.25 to RR queue
+
+800:       RR queue:            Process 247 burst time 25.25 to RR queue
+
+800:       RR queue:            Process 248 burst time 15.25 to RR queue
+
+803.75:    CPU:                 Process 157 LEAVE the CPU
+
+803.75:    FCFS queue:          Process 157 burst time 2.25 to FCFS queue
+
+803.75:    CPU:                 CPU is GIVEN TO process 158
+
+813.75:    CPU:                 Process 158 LEAVE the CPU
+
+813.75:    FCFS queue:          Process 158 burst time 15.25 to FCFS queue
+
+813.75:    CPU:                 CPU is GIVEN TO process 159
+
+819.0:     CPU:                 Process 159 LEAVE the CPU
+
+819.0:     CPU:                 CPU is GIVEN TO process 160
+
+821:       FCFS queue:          Process 249 burst time 7 to FCFS queue
+
+821:       RR queue:            Process 250 burst time 2.25 to RR queue
+
+821:       RR queue:            Process 251 burst time 9.25 to RR queue
+
+821:       RR queue:            Process 252 burst time 5.25 to RR queue
+
+821:       RR queue:            Process 253 burst time 22.25 to RR queue
+
+822.25:    CPU:                 Process 160 LEAVE the CPU
+
+822.25:    CPU:                 CPU is GIVEN TO process 161
+
+827.5:     CPU:                 Process 161 LEAVE the CPU
+
+827.5:     CPU:                 CPU is GIVEN TO process 163
+
+836.75:    CPU:                 Process 163 LEAVE the CPU
+
+836.75:    CPU:                 CPU is GIVEN TO process 164
+
+842.0:     CPU:                 Process 164 LEAVE the CPU
+
+842.0:     CPU:                 CPU is GIVEN TO process 165
+
+842.25:    CPU:                 Process 165 LEAVE the CPU
+
+842.25:    CPU:                 CPU is GIVEN TO process 166
+
+843.5:     CPU:                 Process 166 LEAVE the CPU
+
+843.5:     CPU:                 CPU is GIVEN TO process 167
+
+845:       FCFS queue:          Process 254 burst time 7 to FCFS queue
+
+845:       RR queue:            Process 255 burst time 0.25 to RR queue
+
+845:       RR queue:            Process 256 burst time 2.25 to RR queue
+
+845:       RR queue:            Process 257 burst time 20.25 to RR queue
+
+845:       FCFS queue:          Process 258 burst time 15 to FCFS queue
+
+845:       RR queue:            Process 259 burst time 30.25 to RR queue
+
+845:       RR queue:            Process 260 burst time 16.25 to RR queue
+
+845:       RR queue:            Process 261 burst time 12.25 to RR queue
+
+845:       RR queue:            Process 262 burst time 7.25 to RR queue
+
+845:       RR queue:            Process 263 burst time 8.25 to RR queue
+
+845:       RR queue:            Process 264 burst time 11.25 to RR queue
+
+852.75:    CPU:                 Process 167 LEAVE the CPU
+
+852.75:    CPU:                 CPU is GIVEN TO process 168
+
+854.0:     CPU:                 Process 168 LEAVE the CPU
+
+854.0:     CPU:                 CPU is GIVEN TO process 170
+
+858:       FCFS queue:          Process 265 burst time 7 to FCFS queue
+
+858:       RR queue:            Process 266 burst time 7.25 to RR queue
+
+858:       RR queue:            Process 267 burst time 6.25 to RR queue
+
+858:       RR queue:            Process 268 burst time 1.25 to RR queue
+
+858:       RR queue:            Process 269 burst time 7.25 to RR queue
+
+860:       FCFS queue:          Process 270 burst time 32 to FCFS queue
+
+860:       RR queue:            Process 271 burst time 11.25 to RR queue
+
+860:       RR queue:            Process 272 burst time 3.25 to RR queue
+
+860:       RR queue:            Process 273 burst time 3.25 to RR queue
+
+860:       RR queue:            Process 274 burst time 40.25 to RR queue
+
+860:       RR queue:            Process 275 burst time 1.25 to RR queue
+
+860:       RR queue:            Process 276 burst time 8.25 to RR queue
+
+864.0:     CPU:                 Process 170 LEAVE the CPU
+
+864.0:     FCFS queue:          Process 170 burst time 10.25 to FCFS queue
+
+864.0:     CPU:                 CPU is GIVEN TO process 171
+
+874.0:     CPU:                 Process 171 LEAVE the CPU
+
+874.0:     FCFS queue:          Process 171 burst time 6.25 to FCFS queue
+
+874.0:     CPU:                 CPU is GIVEN TO process 172
+
+876:       FCFS queue:          Process 277 burst time 3 to FCFS queue
+
+876:       RR queue:            Process 278 burst time 2.25 to RR queue
+
+876:       RR queue:            Process 279 burst time 10.25 to RR queue
+
+876:       RR queue:            Process 280 burst time 11.25 to RR queue
+
+876:       RR queue:            Process 281 burst time 11.25 to RR queue
+
+876:       RR queue:            Process 282 burst time 7.25 to RR queue
+
+876:       RR queue:            Process 283 burst time 2.25 to RR queue
+
+884.0:     CPU:                 Process 172 LEAVE the CPU
+
+884.0:     FCFS queue:          Process 172 burst time 16.25 to FCFS queue
+
+884.0:     CPU:                 CPU is GIVEN TO process 173
+
+887.25:    CPU:                 Process 173 LEAVE the CPU
+
+887.25:    CPU:                 CPU is GIVEN TO process 175
+
+897.25:    CPU:                 Process 175 LEAVE the CPU
+
+897.25:    FCFS queue:          Process 175 burst time 6.25 to FCFS queue
+
+897.25:    CPU:                 CPU is GIVEN TO process 176
+
+907.25:    CPU:                 Process 176 LEAVE the CPU
+
+907.25:    FCFS queue:          Process 176 burst time 5.25 to FCFS queue
+
+907.25:    CPU:                 CPU is GIVEN TO process 177
+
+917.25:    CPU:                 Process 177 LEAVE the CPU
+
+917.25:    FCFS queue:          Process 177 burst time 32.25 to FCFS queue
+
+917.25:    CPU:                 CPU is GIVEN TO process 178
+
+919.5:     CPU:                 Process 178 LEAVE the CPU
+
+919.5:     CPU:                 CPU is GIVEN TO process 179
+
+929.5:     CPU:                 Process 179 LEAVE the CPU
+
+929.5:     FCFS queue:          Process 179 burst time 26.25 to FCFS queue
+
+929.5:     CPU:                 CPU is GIVEN TO process 181
+
+935:       FCFS queue:          Process 284 burst time 8 to FCFS queue
+
+935:       RR queue:            Process 285 burst time 7.25 to RR queue
+
+935:       RR queue:            Process 286 burst time 56.25 to RR queue
+
+935:       RR queue:            Process 287 burst time 30.25 to RR queue
+
+935:       RR queue:            Process 288 burst time 0.25 to RR queue
+
+935:       RR queue:            Process 289 burst time 0.25 to RR queue
+
+935:       RR queue:            Process 290 burst time 5.25 to RR queue
+
+939.5:     CPU:                 Process 181 LEAVE the CPU
+
+939.5:     FCFS queue:          Process 181 burst time 23.25 to FCFS queue
+
+939.5:     CPU:                 CPU is GIVEN TO process 182
+
+941:       FCFS queue:          Process 291 burst time 30 to FCFS queue
+
+941:       RR queue:            Process 292 burst time 8.25 to RR queue
+
+941:       RR queue:            Process 293 burst time 7.25 to RR queue
+
+941:       RR queue:            Process 294 burst time 17.25 to RR queue
+
+941:       RR queue:            Process 295 burst time 13.25 to RR queue
+
+946:       FCFS queue:          Process 296 burst time 14 to FCFS queue
+
+946:       RR queue:            Process 297 burst time 31.25 to RR queue
+
+946:       RR queue:            Process 298 burst time 1.25 to RR queue
+
+946:       RR queue:            Process 299 burst time 3.25 to RR queue
+
+946:       RR queue:            Process 300 burst time 11.25 to RR queue
+
+946:       RR queue:            Process 301 burst time 3.25 to RR queue
+
+946:       RR queue:            Process 302 burst time 0.25 to RR queue
+
+949.5:     CPU:                 Process 182 LEAVE the CPU
+
+949.5:     FCFS queue:          Process 182 burst time 17.25 to FCFS queue
+
+949.5:     CPU:                 CPU is GIVEN TO process 183
+
+959.5:     CPU:                 Process 183 LEAVE the CPU
+
+959.5:     FCFS queue:          Process 183 burst time 29.25 to FCFS queue
+
+959.5:     CPU:                 CPU is GIVEN TO process 184
+
+959.75:    CPU:                 Process 184 LEAVE the CPU
+
+959.75:    CPU:                 CPU is GIVEN TO process 186
+
+963.0:     CPU:                 Process 186 LEAVE the CPU
+
+963.0:     CPU:                 CPU is GIVEN TO process 187
+
+971:       FCFS queue:          Process 303 burst time 6 to FCFS queue
+
+971:       RR queue:            Process 304 burst time 15.25 to RR queue
+
+971:       RR queue:            Process 305 burst time 23.25 to RR queue
+
+971:       RR queue:            Process 306 burst time 8.25 to RR queue
+
+971:       RR queue:            Process 307 burst time 15.25 to RR queue
+
+971:       RR queue:            Process 308 burst time 5.25 to RR queue
+
+973.0:     CPU:                 Process 187 LEAVE the CPU
+
+973.0:     FCFS queue:          Process 187 burst time 0.25 to FCFS queue
+
+973.0:     CPU:                 CPU is GIVEN TO process 188
+
+977.25:    CPU:                 Process 188 LEAVE the CPU
+
+977.25:    CPU:                 CPU is GIVEN TO process 190
+
+987.25:    CPU:                 Process 190 LEAVE the CPU
+
+987.25:    FCFS queue:          Process 190 burst time 1.25 to FCFS queue
+
+987.25:    CPU:                 CPU is GIVEN TO process 191
+
+997.25:    CPU:                 Process 191 LEAVE the CPU
+
+997.25:    FCFS queue:          Process 191 burst time 3.25 to FCFS queue
+
+997.25:    CPU:                 CPU is GIVEN TO process 192
+
