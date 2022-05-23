@@ -1,0 +1,478 @@
+0:         CPU:                 CPU is IDLE
+
+15:        FCFS queue:          Process 0 burst time 30 to FCFS queue
+
+15:        CPU:                 CPU is GIVEN TO process 0
+
+30:        FCFS queue:          Process 1 burst time 30 to FCFS queue
+
+30:        FCFS queue:          Process 0 burst time 15 to FCFS queue
+
+30:        CPU:                 Process 0 LEAVE the CPU
+
+30:        CPU:                 CPU is GIVEN TO process 1
+
+45:        FCFS queue:          Process 2 burst time 30 to FCFS queue
+
+45:        FCFS queue:          Process 1 burst time 15 to FCFS queue
+
+45:        CPU:                 Process 1 LEAVE the CPU
+
+45:        CPU:                 CPU is GIVEN TO process 0
+
+60:        FCFS queue:          Process 3 burst time 30 to FCFS queue
+
+60:        CPU:                 Process 0 LEAVE the CPU
+
+60:        CPU:                 CPU is GIVEN TO process 2
+
+75:        FCFS queue:          Process 4 burst time 30 to FCFS queue
+
+75:        FCFS queue:          Process 2 burst time 15 to FCFS queue
+
+75:        CPU:                 Process 2 LEAVE the CPU
+
+75:        CPU:                 CPU is GIVEN TO process 1
+
+90:        FCFS queue:          Process 5 burst time 30 to FCFS queue
+
+90:        CPU:                 Process 1 LEAVE the CPU
+
+90:        CPU:                 CPU is GIVEN TO process 3
+
+105:       FCFS queue:          Process 6 burst time 30 to FCFS queue
+
+105:       FCFS queue:          Process 3 burst time 15 to FCFS queue
+
+105:       CPU:                 Process 3 LEAVE the CPU
+
+105:       CPU:                 CPU is GIVEN TO process 4
+
+120:       FCFS queue:          Process 7 burst time 30 to FCFS queue
+
+120:       FCFS queue:          Process 4 burst time 15 to FCFS queue
+
+120:       CPU:                 Process 4 LEAVE the CPU
+
+120:       CPU:                 CPU is GIVEN TO process 2
+
+135:       FCFS queue:          Process 8 burst time 30 to FCFS queue
+
+135:       CPU:                 Process 2 LEAVE the CPU
+
+135:       CPU:                 CPU is GIVEN TO process 5
+
+150:       FCFS queue:          Process 9 burst time 30 to FCFS queue
+
+150:       FCFS queue:          Process 5 burst time 15 to FCFS queue
+
+150:       CPU:                 Process 5 LEAVE the CPU
+
+150:       CPU:                 CPU is GIVEN TO process 6
+
+165:       FCFS queue:          Process 10 burst time 30 to FCFS queue
+
+165:       FCFS queue:          Process 6 burst time 15 to FCFS queue
+
+165:       CPU:                 Process 6 LEAVE the CPU
+
+165:       CPU:                 CPU is GIVEN TO process 3
+
+180:       FCFS queue:          Process 11 burst time 30 to FCFS queue
+
+180:       CPU:                 Process 3 LEAVE the CPU
+
+180:       CPU:                 CPU is GIVEN TO process 7
+
+195:       FCFS queue:          Process 12 burst time 30 to FCFS queue
+
+195:       FCFS queue:          Process 7 burst time 15 to FCFS queue
+
+195:       CPU:                 Process 7 LEAVE the CPU
+
+195:       CPU:                 CPU is GIVEN TO process 4
+
+210:       FCFS queue:          Process 13 burst time 30 to FCFS queue
+
+210:       CPU:                 Process 4 LEAVE the CPU
+
+210:       CPU:                 CPU is GIVEN TO process 8
+
+225:       FCFS queue:          Process 14 burst time 30 to FCFS queue
+
+225:       FCFS queue:          Process 8 burst time 15 to FCFS queue
+
+225:       CPU:                 Process 8 LEAVE the CPU
+
+225:       CPU:                 CPU is GIVEN TO process 9
+
+240:       FCFS queue:          Process 15 burst time 30 to FCFS queue
+
+240:       FCFS queue:          Process 9 burst time 15 to FCFS queue
+
+240:       CPU:                 Process 9 LEAVE the CPU
+
+240:       CPU:                 CPU is GIVEN TO process 5
+
+255:       FCFS queue:          Process 16 burst time 30 to FCFS queue
+
+255:       CPU:                 Process 5 LEAVE the CPU
+
+255:       CPU:                 CPU is GIVEN TO process 10
+
+270:       FCFS queue:          Process 17 burst time 30 to FCFS queue
+
+270:       FCFS queue:          Process 10 burst time 15 to FCFS queue
+
+270:       CPU:                 Process 10 LEAVE the CPU
+
+270:       CPU:                 CPU is GIVEN TO process 6
+
+285:       FCFS queue:          Process 18 burst time 30 to FCFS queue
+
+285:       CPU:                 Process 6 LEAVE the CPU
+
+285:       CPU:                 CPU is GIVEN TO process 11
+
+300:       FCFS queue:          Process 19 burst time 30 to FCFS queue
+
+300:       FCFS queue:          Process 11 burst time 15 to FCFS queue
+
+300:       CPU:                 Process 11 LEAVE the CPU
+
+300:       CPU:                 CPU is GIVEN TO process 12
+
+315:       FCFS queue:          Process 20 burst time 30 to FCFS queue
+
+315:       FCFS queue:          Process 12 burst time 15 to FCFS queue
+
+315:       CPU:                 Process 12 LEAVE the CPU
+
+315:       CPU:                 CPU is GIVEN TO process 7
+
+330:       FCFS queue:          Process 21 burst time 30 to FCFS queue
+
+330:       CPU:                 Process 7 LEAVE the CPU
+
+330:       CPU:                 CPU is GIVEN TO process 13
+
+345:       FCFS queue:          Process 22 burst time 30 to FCFS queue
+
+345:       FCFS queue:          Process 13 burst time 15 to FCFS queue
+
+345:       CPU:                 Process 13 LEAVE the CPU
+
+345:       CPU:                 CPU is GIVEN TO process 14
+
+360:       FCFS queue:          Process 23 burst time 30 to FCFS queue
+
+360:       FCFS queue:          Process 14 burst time 15 to FCFS queue
+
+360:       CPU:                 Process 14 LEAVE the CPU
+
+360:       CPU:                 CPU is GIVEN TO process 8
+
+375:       FCFS queue:          Process 24 burst time 30 to FCFS queue
+
+375:       CPU:                 Process 8 LEAVE the CPU
+
+375:       CPU:                 CPU is GIVEN TO process 15
+
+390:       FCFS queue:          Process 25 burst time 30 to FCFS queue
+
+390:       FCFS queue:          Process 15 burst time 15 to FCFS queue
+
+390:       CPU:                 Process 15 LEAVE the CPU
+
+390:       CPU:                 CPU is GIVEN TO process 9
+
+405:       FCFS queue:          Process 26 burst time 30 to FCFS queue
+
+405:       CPU:                 Process 9 LEAVE the CPU
+
+405:       CPU:                 CPU is GIVEN TO process 16
+
+420:       FCFS queue:          Process 27 burst time 30 to FCFS queue
+
+420:       FCFS queue:          Process 16 burst time 15 to FCFS queue
+
+420:       CPU:                 Process 16 LEAVE the CPU
+
+420:       CPU:                 CPU is GIVEN TO process 17
+
+435:       FCFS queue:          Process 28 burst time 30 to FCFS queue
+
+435:       FCFS queue:          Process 17 burst time 15 to FCFS queue
+
+435:       CPU:                 Process 17 LEAVE the CPU
+
+435:       CPU:                 CPU is GIVEN TO process 10
+
+450:       FCFS queue:          Process 29 burst time 30 to FCFS queue
+
+450:       CPU:                 Process 10 LEAVE the CPU
+
+450:       CPU:                 CPU is GIVEN TO process 18
+
+465:       FCFS queue:          Process 30 burst time 30 to FCFS queue
+
+465:       FCFS queue:          Process 18 burst time 15 to FCFS queue
+
+465:       CPU:                 Process 18 LEAVE the CPU
+
+465:       CPU:                 CPU is GIVEN TO process 19
+
+480:       FCFS queue:          Process 31 burst time 30 to FCFS queue
+
+480:       FCFS queue:          Process 19 burst time 15 to FCFS queue
+
+480:       CPU:                 Process 19 LEAVE the CPU
+
+480:       CPU:                 CPU is GIVEN TO process 11
+
+495:       FCFS queue:          Process 32 burst time 30 to FCFS queue
+
+495:       CPU:                 Process 11 LEAVE the CPU
+
+495:       CPU:                 CPU is GIVEN TO process 20
+
+510:       FCFS queue:          Process 33 burst time 30 to FCFS queue
+
+510:       FCFS queue:          Process 20 burst time 15 to FCFS queue
+
+510:       CPU:                 Process 20 LEAVE the CPU
+
+510:       CPU:                 CPU is GIVEN TO process 12
+
+525:       FCFS queue:          Process 34 burst time 30 to FCFS queue
+
+525:       CPU:                 Process 12 LEAVE the CPU
+
+525:       CPU:                 CPU is GIVEN TO process 21
+
+540:       FCFS queue:          Process 35 burst time 30 to FCFS queue
+
+540:       FCFS queue:          Process 21 burst time 15 to FCFS queue
+
+540:       CPU:                 Process 21 LEAVE the CPU
+
+540:       CPU:                 CPU is GIVEN TO process 22
+
+555:       FCFS queue:          Process 36 burst time 30 to FCFS queue
+
+555:       FCFS queue:          Process 22 burst time 15 to FCFS queue
+
+555:       CPU:                 Process 22 LEAVE the CPU
+
+555:       CPU:                 CPU is GIVEN TO process 13
+
+570:       FCFS queue:          Process 37 burst time 30 to FCFS queue
+
+570:       CPU:                 Process 13 LEAVE the CPU
+
+570:       CPU:                 CPU is GIVEN TO process 23
+
+585:       FCFS queue:          Process 38 burst time 30 to FCFS queue
+
+585:       FCFS queue:          Process 23 burst time 15 to FCFS queue
+
+585:       CPU:                 Process 23 LEAVE the CPU
+
+585:       CPU:                 CPU is GIVEN TO process 14
+
+600:       FCFS queue:          Process 39 burst time 30 to FCFS queue
+
+600:       CPU:                 Process 14 LEAVE the CPU
+
+600:       CPU:                 CPU is GIVEN TO process 24
+
+615:       FCFS queue:          Process 40 burst time 30 to FCFS queue
+
+615:       FCFS queue:          Process 24 burst time 15 to FCFS queue
+
+615:       CPU:                 Process 24 LEAVE the CPU
+
+615:       CPU:                 CPU is GIVEN TO process 25
+
+630:       FCFS queue:          Process 41 burst time 30 to FCFS queue
+
+630:       FCFS queue:          Process 25 burst time 15 to FCFS queue
+
+630:       CPU:                 Process 25 LEAVE the CPU
+
+630:       CPU:                 CPU is GIVEN TO process 15
+
+645:       FCFS queue:          Process 42 burst time 30 to FCFS queue
+
+645:       CPU:                 Process 15 LEAVE the CPU
+
+645:       CPU:                 CPU is GIVEN TO process 26
+
+660:       FCFS queue:          Process 43 burst time 30 to FCFS queue
+
+660:       FCFS queue:          Process 26 burst time 15 to FCFS queue
+
+660:       CPU:                 Process 26 LEAVE the CPU
+
+660:       CPU:                 CPU is GIVEN TO process 27
+
+675:       FCFS queue:          Process 44 burst time 30 to FCFS queue
+
+675:       FCFS queue:          Process 27 burst time 15 to FCFS queue
+
+675:       CPU:                 Process 27 LEAVE the CPU
+
+675:       CPU:                 CPU is GIVEN TO process 16
+
+690:       FCFS queue:          Process 45 burst time 30 to FCFS queue
+
+690:       CPU:                 Process 16 LEAVE the CPU
+
+690:       CPU:                 CPU is GIVEN TO process 28
+
+705:       FCFS queue:          Process 46 burst time 30 to FCFS queue
+
+705:       FCFS queue:          Process 28 burst time 15 to FCFS queue
+
+705:       CPU:                 Process 28 LEAVE the CPU
+
+705:       CPU:                 CPU is GIVEN TO process 17
+
+720:       FCFS queue:          Process 47 burst time 30 to FCFS queue
+
+720:       CPU:                 Process 17 LEAVE the CPU
+
+720:       CPU:                 CPU is GIVEN TO process 29
+
+735:       FCFS queue:          Process 48 burst time 30 to FCFS queue
+
+735:       FCFS queue:          Process 29 burst time 15 to FCFS queue
+
+735:       CPU:                 Process 29 LEAVE the CPU
+
+735:       CPU:                 CPU is GIVEN TO process 30
+
+750:       FCFS queue:          Process 49 burst time 30 to FCFS queue
+
+750:       FCFS queue:          Process 30 burst time 15 to FCFS queue
+
+750:       CPU:                 Process 30 LEAVE the CPU
+
+750:       CPU:                 CPU is GIVEN TO process 18
+
+765:       FCFS queue:          Process 50 burst time 30 to FCFS queue
+
+765:       CPU:                 Process 18 LEAVE the CPU
+
+765:       CPU:                 CPU is GIVEN TO process 31
+
+780:       FCFS queue:          Process 51 burst time 30 to FCFS queue
+
+780:       FCFS queue:          Process 31 burst time 15 to FCFS queue
+
+780:       CPU:                 Process 31 LEAVE the CPU
+
+780:       CPU:                 CPU is GIVEN TO process 19
+
+795:       FCFS queue:          Process 52 burst time 30 to FCFS queue
+
+795:       CPU:                 Process 19 LEAVE the CPU
+
+795:       CPU:                 CPU is GIVEN TO process 32
+
+810:       FCFS queue:          Process 53 burst time 30 to FCFS queue
+
+810:       FCFS queue:          Process 32 burst time 15 to FCFS queue
+
+810:       CPU:                 Process 32 LEAVE the CPU
+
+810:       CPU:                 CPU is GIVEN TO process 33
+
+825:       FCFS queue:          Process 54 burst time 30 to FCFS queue
+
+825:       FCFS queue:          Process 33 burst time 15 to FCFS queue
+
+825:       CPU:                 Process 33 LEAVE the CPU
+
+825:       CPU:                 CPU is GIVEN TO process 20
+
+840:       FCFS queue:          Process 55 burst time 30 to FCFS queue
+
+840:       CPU:                 Process 20 LEAVE the CPU
+
+840:       CPU:                 CPU is GIVEN TO process 34
+
+855:       FCFS queue:          Process 56 burst time 30 to FCFS queue
+
+855:       FCFS queue:          Process 34 burst time 15 to FCFS queue
+
+855:       CPU:                 Process 34 LEAVE the CPU
+
+855:       CPU:                 CPU is GIVEN TO process 35
+
+870:       FCFS queue:          Process 57 burst time 30 to FCFS queue
+
+870:       FCFS queue:          Process 35 burst time 15 to FCFS queue
+
+870:       CPU:                 Process 35 LEAVE the CPU
+
+870:       CPU:                 CPU is GIVEN TO process 21
+
+885:       FCFS queue:          Process 58 burst time 30 to FCFS queue
+
+885:       CPU:                 Process 21 LEAVE the CPU
+
+885:       CPU:                 CPU is GIVEN TO process 36
+
+900:       FCFS queue:          Process 59 burst time 30 to FCFS queue
+
+900:       FCFS queue:          Process 36 burst time 15 to FCFS queue
+
+900:       CPU:                 Process 36 LEAVE the CPU
+
+900:       CPU:                 CPU is GIVEN TO process 22
+
+915:       FCFS queue:          Process 60 burst time 30 to FCFS queue
+
+915:       CPU:                 Process 22 LEAVE the CPU
+
+915:       CPU:                 CPU is GIVEN TO process 37
+
+930:       FCFS queue:          Process 61 burst time 30 to FCFS queue
+
+930:       FCFS queue:          Process 37 burst time 15 to FCFS queue
+
+930:       CPU:                 Process 37 LEAVE the CPU
+
+930:       CPU:                 CPU is GIVEN TO process 38
+
+945:       FCFS queue:          Process 62 burst time 30 to FCFS queue
+
+945:       FCFS queue:          Process 38 burst time 15 to FCFS queue
+
+945:       CPU:                 Process 38 LEAVE the CPU
+
+945:       CPU:                 CPU is GIVEN TO process 23
+
+960:       FCFS queue:          Process 63 burst time 30 to FCFS queue
+
+960:       CPU:                 Process 23 LEAVE the CPU
+
+960:       CPU:                 CPU is GIVEN TO process 39
+
+975:       FCFS queue:          Process 64 burst time 30 to FCFS queue
+
+975:       FCFS queue:          Process 39 burst time 15 to FCFS queue
+
+975:       CPU:                 Process 39 LEAVE the CPU
+
+975:       CPU:                 CPU is GIVEN TO process 40
+
+990:       FCFS queue:          Process 65 burst time 30 to FCFS queue
+
+990:       FCFS queue:          Process 40 burst time 15 to FCFS queue
+
+990:       CPU:                 Process 40 LEAVE the CPU
+
+990:       CPU:                 CPU is GIVEN TO process 24
+
